@@ -8,9 +8,11 @@ The shipped native model detected **24/24 destructive fixture campaigns** and fa
 
 ## Run on Windows
 
-Prerequisites: Windows 11, PowerShell, Python 3.11 or 3.12, [uv](https://docs.astral.sh/uv/getting-started/installation/), and Docker Desktop configured for Linux containers. Run from the repository root:
+Prerequisites: Windows 11, PowerShell, Python 3.11 or 3.12, [uv](https://docs.astral.sh/uv/getting-started/installation/), Git with access to this private repository, and Docker Desktop configured for Linux containers:
 
 ```powershell
+git clone https://github.com/darkmodepdf/xran-ransomware-lab.git
+cd xran-ransomware-lab
 ./setup.ps1 -Profile Demo
 ./start.ps1
 ```

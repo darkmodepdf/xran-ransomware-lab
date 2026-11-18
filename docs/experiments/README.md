@@ -8,6 +8,7 @@ These compact records preserve the evidence behind the documentation. They are n
 | `native-v1` | Initial132-campaign experiment, its preserved misses, pre-test freeze and HTTP diagnostic results |
 | `xran-endpoint` | Completed Kaggle campaign's protocol/selection marker and independently verified endpoint evaluation |
 | `dashboard` | Verified648-event browser comparison and UI checks |
+| `en2025-streaming` | Compact360-report audit metadata whose bytes match the historical model's recorded audit hash; no raw API records |
 
 Final native-v2 test:24/24 destructive campaigns detected;2/32 benign campaigns falsely flagged. These are controlled fixtures with shared worker templates, not a production ransomware benchmark. The v1 failure analysis informed v2 development; v1 test is not an untouched holdout for v2. See [results](../RESULTS.md) and [reproduction](../REPRODUCIBILITY.md).
 
