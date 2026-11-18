@@ -56,6 +56,7 @@ Native fitting needs the Native profile; inference and fixture workers use the P
 | [Datasets and rights](docs/DATASETS.md) | Acquisition, provenance and redistribution boundaries |
 | [Research map](docs/RESEARCH.md) | Original XRan, Linux, EN2025 and current records |
 | [Project structure](docs/PROJECT.md) | Source, helpers, bundles and generated outputs |
+| [Handoff verification](docs/VALIDATION.md) | Clean-clone setup, tests, model integrity and launcher lifecycle |
 | [Legacy README](README.legacy.md) | Preserved prior instructions and historical context |
 | [Native technical runbook](demo/windows_streaming/README.md) | Event, worker and security details |
 

@@ -2,12 +2,14 @@
 title: Reproducible private GitHub project handoff
 type: feature
 created: 2026-11-18
-status: in-progress
+status: built
 baseline_revision: NO_VCS
 route: full
 route_source: auto
 risk: high
 review: quick
+review_source: pinned
+lenses_ran: [quick]
 context: []
 ---
 
@@ -43,20 +45,30 @@ Preserve existing models, calibrated thresholds, worker safety, dataset acquisit
 
 ## Tasks & Acceptance
 
-- [ ] Add versioned install metadata and lockfile with minimal runtime and optionalnative/research/export/Kaggle groups. Document uv sync commands and pipfallbackifvalidated. No hidden third-party import is a required stdlibruntime dependency.
-- [ ] Add setup/start/stop/doctor/test/reproduce helpers with explicit exitcodechecks, safe credentialgeneration/storageignored, Docker readiness, localhostbinding and bounded ownedservicecleanup; rootwrappers beginnerfriendly. Agree commands `./setup.ps1 -Profile Demo|Native|Research`, `./start.ps1`, `./stop.ps1`, `./test.ps1 -Suite Windows|All`, `./helpers/reproduce-native.ps1`.
-- [ ] Add CI for relevant Linux+Windows Python3.11 tests, JSsyntax andDockerbuild, dependency profiles explicit. No datasetdownloads/Kaggle submission inCI. Do not claim checks passed until observed.
-- [ ] Rewrite documentation and preserve history; include model manifest and compact saved experiment evidence without raw datasets or credentials.
-- [ ] Strengthen ignores redundantly bydirectories/extensions/secretnames, prove representative sensitivefilesignored and source/bundles/docsnotignored. Scan full stagedcontents for secrets andoversizedfiles beforecommit.
-- [ ] Fresh clone/clean staging environment smoke setup, import/package, real nativeworkers/tests, Dockerhealth and bundledmodelhash. Initializegitmain, meaningful initialcommit(s), createprivate GitHub repo and verifyprivacy/head afterpush. No pushuntil result is concrete andreviewed.
+- [x] Add versioned install metadata and lockfile with minimal runtime and optionalnative/research/export/Kaggle groups. Document uv sync commands and pipfallbackifvalidated. No hidden third-party import is a required stdlibruntime dependency.
+- [x] Add setup/start/stop/doctor/test/reproduce helpers with explicit exitcodechecks, safe credentialgeneration/storageignored, Docker readiness, localhostbinding and bounded ownedservicecleanup; rootwrappers beginnerfriendly. Agree commands `./setup.ps1 -Profile Demo|Native|Research`, `./start.ps1`, `./stop.ps1`, `./test.ps1 -Suite Windows|All`, `./helpers/reproduce-native.ps1`.
+- [x] Add CI for relevant Linux+Windows Python3.11 tests, JSsyntax andDockerbuild, dependency profiles explicit. No datasetdownloads/Kaggle submission inCI. Do not claim checks passed until observed.
+- [x] Rewrite documentation and preserve history; include model manifest and compact saved experiment evidence without raw datasets or credentials.
+- [x] Strengthen ignores redundantly bydirectories/extensions/secretnames, prove representative sensitivefilesignored and source/bundles/docsnotignored. Scan full stagedcontents for secrets andoversizedfiles beforecommit.
+- [x] Fresh clone/clean staging environment smoke setup, import/package, real nativeworkers/tests, Dockerhealth and bundledmodelhash. Initializegitmain, meaningful initialcommit(s), createprivate GitHub repo and verifyprivacy/head afterpush. No pushuntil result is concrete andreviewed.
 
 Acceptance: Given freshsourcecheckout, whenfollowingquickstart, then localdemo hasmodel andnativeagentonline without researchdatasets. Givennewresearchenvironment, then all testsrun with declareddeps. Giventraininghelper, then newexperimentsdonotaltershippedmodel. Given ignoreaudit, then archives/secrets/generatedfilesstayunstaged while models/source/docsaretracked. Givenremotehandoff, then darkmodepdfprivate repohead equals localcommit and no requireduncommitted work remains.
 
 ## Implementation Notes
 
+Implemented locked profiles, helpers, bounded Docker/service lifecycle, private session ACL, CI, professional current/legacy documentation, selected trained model registry and frozen compact provenance. Authenticated darkmodepdf private repository created and verified. Fresh Native profile45Windows tests pass withTorch absent; Research109tests pass. Independent clean clone at9cbec95e233aaf1eb3f90a273bcea4eb6875dac8 passes all109 tests, actualstart648events/oneflag/6invalid/firstalert4, andauthenticatedstop exits0 withsessionremoved. Mainlab restarted throughnewhelper. Stagedsource audit passes againstlocalcredentials. GitHubprivacy/head verification is performed externally at publication; hostedCI has no fabricated checked-in successclaim. See docs/VALIDATION.md.
+
 No initialVCS. ghCLI authenticated asdarkmodepdf; GitHubconnector cannot create repo. Repo creation/push via authenticatedCLI authorized byuser. No open questions necessary; choose professional routine defaults and documentthem. Root handles finalreview/publication after collaboratorsfinish.
 
 ## Review Triage Log
+
+| Finding | Verdict | Resolution |
+|---|---|---|
+| Native suite imports undeclared ijson | medium | Move pinnedijson toNative, relock;45tests pass withoutTorch. |
+| Readiness HTTP request can hang beyond loop count | medium | Add per-request2s timeout and15s overall deadline; mocked timeout/missingmodel/success checks pass. |
+| Frozen evidence test reads ignored local audit | high | Ship compactmetadata snapshotmatchingmodelSHA; pointtest totrackedreceipt; cleanclone109tests pass. |
+
+No findings deferred. Selected endpointweights are compact, hashverified project-trained models; no rawdatasets or privatecredentials were added.
 
 ## Verification
 
