@@ -1,0 +1,27 @@
+.git/
+.github/
+.venv*/
+**/__pycache__/
+**/*.pyc
+data/
+runs/
+tmp/
+artifacts/
+checkpoints/
+_bmad/
+.local/
+.secrets/
+models/
+.env
+.env.*
+**/*credentials*.json
+**/kaggle.json
+**/secrets.json
+**/*.pem
+**/*.key
+*.7z
+*.zip
+*.tar
+*.pdf
+*.log
+# The Windows Dockerfile additionally uses its narrower allowlist ignore file.

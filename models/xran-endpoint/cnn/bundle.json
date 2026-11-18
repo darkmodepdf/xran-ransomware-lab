@@ -1,0 +1,166 @@
+{
+  "config": {
+    "cnn_channels": [
+      64,
+      64
+    ],
+    "cnn_kernels": [
+      5,
+      3
+    ],
+    "cnn_pool": 2,
+    "cnn_readout": "flatten",
+    "counts_transform": "log1p_counts_ignore_PAD_include_UNK",
+    "dropout": 0.2,
+    "embedding_dim": 64,
+    "gru_layers": 1,
+    "gru_readout": "final_hidden_all_520_positions",
+    "hidden_dim": 64,
+    "kind": "cnn",
+    "missingness_transform": "blank_fraction_per_view",
+    "pad_id": 0,
+    "unk_id": 1,
+    "view": "all",
+    "vocab_size": 8881,
+    "width": 520
+  },
+  "model_source_sha256": "65d0133ff277c8086a6afb39c134d3a9c60c14c10790df0725bef28a36557d43",
+  "normalization": "exact_strings_namespaced_by_view; blank=PAD0; unknown=UNK1",
+  "provenance": {
+    "amp": "fp16",
+    "batch_size": 128,
+    "completed_epochs": 10,
+    "completed_steps": 1060,
+    "config": {
+      "cnn_channels": [
+        64,
+        64
+      ],
+      "cnn_kernels": [
+        5,
+        3
+      ],
+      "cnn_pool": 2,
+      "cnn_readout": "flatten",
+      "counts_transform": "log1p_counts_ignore_PAD_include_UNK",
+      "dropout": 0.2,
+      "embedding_dim": 64,
+      "gru_layers": 1,
+      "gru_readout": "final_hidden_all_520_positions",
+      "hidden_dim": 64,
+      "kind": "cnn",
+      "missingness_transform": "blank_fraction_per_view",
+      "pad_id": 0,
+      "unk_id": 1,
+      "view": "all",
+      "vocab_size": 8881,
+      "width": 520
+    },
+    "config_id": "cnn-lr1",
+    "data_hashes": {
+      "encoded.npz": "8a06fcec378ad34fb58f20eb980fe7a3f07b2b39844c3ab49ff06057b4705ea8",
+      "groups.jsonl": "123e42c313ca5e961ae467442acb8853795afb7c0da3ad5eb06a7e031219d081",
+      "manifest.json": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+      "vocabulary.json": "1586f52ef87e6f8e38c84ae2ee3763688455a0baeda57ecfadd06ad61db7be50"
+    },
+    "device_type": "cuda",
+    "epoch_selection": "tune_recall_at_provisional_5pct_then_auc_then_earliest_epoch",
+    "epochs": 10,
+    "fit_roles": [
+      "train"
+    ],
+    "gradient_clip_norm": 1.0,
+    "loss": "unweighted_BCEWithLogitsLoss",
+    "lr": 0.001,
+    "optimizer": "AdamW",
+    "scheduler": null,
+    "seed": 17,
+    "selected_epoch": 8,
+    "selected_tune": {
+      "confusion": {
+        "fn": 6,
+        "fp": 60,
+        "tn": 1140,
+        "tp": 1039
+      },
+      "epoch": 8,
+      "metrics": {
+        "accuracy": 0.9706013363028954,
+        "average_precision": 0.9965818018343283,
+        "balanced_accuracy": 0.9721291866028707,
+        "class_report": {
+          "healthy": {
+            "f1": 0.9718670076726342,
+            "precision": 0.9947643979057592,
+            "recall": 0.95,
+            "support": 1200
+          },
+          "ransomware": {
+            "f1": 0.9692164179104478,
+            "precision": 0.9454049135577798,
+            "recall": 0.9942583732057416,
+            "support": 1045
+          }
+        },
+        "f1": 0.9692164179104478,
+        "fnr": 0.005741626794258373,
+        "fpr": 0.05,
+        "intervals": {
+          "fpr": [
+            0.039041012521836546,
+            0.06383088802062488
+          ],
+          "method": "Wilson 95%; feature groups, not verified executable identities",
+          "recall": [
+            0.9875302481562056,
+            0.9973659831212021
+          ]
+        },
+        "mcc": 0.942211624095417,
+        "precision": 0.9454049135577798,
+        "recall": 0.9942583732057416,
+        "roc_auc": 0.9971738437001595,
+        "specificity": 0.95,
+        "undefined_reasons": {}
+      },
+      "operating_point": {
+        "actual_fpr": 0.05,
+        "alarm_enabled": true,
+        "alerts": 60,
+        "allowed": 60,
+        "n": 1200,
+        "target_rate": 0.05,
+        "threshold": 0.33143398165702825
+      },
+      "step": 848,
+      "train_loss": 0.02304561689506483
+    },
+    "selection_roles": [
+      "tune"
+    ],
+    "software": {
+      "numpy": "2.1.3",
+      "python": "3.13.16",
+      "torch": "2.11.0+cu130"
+    },
+    "source_hashes": {
+      "train_xran.py": "15190e8e4ddf53e3ea6a5d12f5f8e0d425bd2955781e3059633eb51fdcfe79de",
+      "xran_metrics.py": "30ed6fa3ef9961c5bfc7115b43f86407ea73ee51886563651c9e7ecaa396c3e3",
+      "xran_models.py": "65d0133ff277c8086a6afb39c134d3a9c60c14c10790df0725bef28a36557d43"
+    },
+    "threads": 2,
+    "training_status": "complete",
+    "weight_decay": 0.0001
+  },
+  "schema": "xran-endpoint-bundle-v1",
+  "score_arithmetic": "torch_float32_logit_then_float32_sigmoid_converted_losslessly_to_binary64",
+  "software": {
+    "numpy": "2.1.3",
+    "python": "3.13.16",
+    "torch": "2.11.0+cu130"
+  },
+  "task": "ransomware_vs_benign",
+  "unit": "unique_released_feature_vector",
+  "vocabulary_sha256": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+  "weights_sha256": "8e5fe7c22fe63b3edc25cf939d79d6f23d8ad984f3a20d31dd268cf1636c7f98"
+}

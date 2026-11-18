@@ -1,0 +1,1043 @@
+{
+  "cuda_used": true,
+  "diagnostics": [
+    {
+      "best": {
+        "confusion": {
+          "fn": 116,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 929
+        },
+        "epoch": 6,
+        "metrics": {
+          "accuracy": 0.9216035634743875,
+          "average_precision": 0.9778142454900648,
+          "balanced_accuracy": 0.9194976076555024,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9283387622149837,
+              "precision": 0.9076433121019108,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9134709931170109,
+              "precision": 0.9393326592517695,
+              "recall": 0.8889952153110048,
+              "support": 1045
+            }
+          },
+          "f1": 0.9134709931170109,
+          "fnr": 0.11100478468899522,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.8685057979565054,
+              0.9066351856141939
+            ]
+          },
+          "mcc": 0.8429761488020455,
+          "precision": 0.9393326592517695,
+          "recall": 0.8889952153110048,
+          "roc_auc": 0.9795992822966507,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.6448073387145997
+        },
+        "step": 636,
+        "train_loss": 0.16249089701810862
+      },
+      "bundle_sha256": "34bd8af3eabe671b1f295306cf23fa8351aea75de29deb88ff667353cc18ae47",
+      "config_id": "counts_api",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.4351778790000935,
+      "gpu_slot": 0,
+      "id": "counts_api",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "5eebdd94b2796e7d4f313de1910c19ffebb71da0c5157e18650e96e6ed2ff2c3",
+      "run": "diagnostics/counts_api",
+      "seed": 17,
+      "view": "api"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 977,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 68
+        },
+        "epoch": 9,
+        "metrics": {
+          "accuracy": 0.5380846325167038,
+          "average_precision": 0.7039017116547348,
+          "balanced_accuracy": 0.5075358851674641,
+          "class_report": {
+            "healthy": {
+              "f1": 0.68736810370817,
+              "precision": 0.538497874350496,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.11594202898550725,
+              "precision": 0.53125,
+              "recall": 0.06507177033492823,
+              "support": 1045
+            }
+          },
+          "f1": 0.11594202898550725,
+          "fnr": 0.9349282296650717,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.05165276228543098,
+              0.08167669150821513
+            ]
+          },
+          "mcc": 0.032422583850768384,
+          "precision": 0.53125,
+          "recall": 0.06507177033492823,
+          "roc_auc": 0.7821925837320575,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.8182449340820314
+        },
+        "step": 954,
+        "train_loss": 0.5625674797209155
+      },
+      "bundle_sha256": "1622639b4d6b3bce3914ed8e9a7903d3221af15b47dc2c3d6e97cd786f0b232a",
+      "config_id": "counts_missingness",
+      "data_variant": "primary",
+      "elapsed_seconds": 5.71739784600004,
+      "gpu_slot": 1,
+      "id": "counts_missingness",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 4,
+      "result_sha256": "a164a014ca4bcfe43d7ec4f30ca2afae5e1ec3d7e6b154ed94c6ac2385566448",
+      "run": "diagnostics/counts_missingness",
+      "seed": 17,
+      "view": "missingness"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 166,
+          "fp": 50,
+          "tn": 1022,
+          "tp": 1009
+        },
+        "epoch": 7,
+        "metrics": {
+          "accuracy": 0.9038718291054739,
+          "average_precision": 0.9693762480168601,
+          "balanced_accuracy": 0.9060408066052714,
+          "class_report": {
+            "healthy": {
+              "f1": 0.904424778761062,
+              "precision": 0.8602693602693603,
+              "recall": 0.9533582089552238,
+              "support": 1072
+            },
+            "ransomware": {
+              "f1": 0.9033124440465533,
+              "precision": 0.9527856468366384,
+              "recall": 0.8587234042553191,
+              "support": 1175
+            }
+          },
+          "f1": 0.9033124440465533,
+          "fnr": 0.14127659574468085,
+          "fpr": 0.04664179104477612,
+          "intervals": {
+            "fpr": [
+              0.035556466801995104,
+              0.06096468691383408
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.837637097890245,
+              0.8774717860841379
+            ]
+          },
+          "mcc": 0.8125681644019466,
+          "precision": 0.9527856468366384,
+          "recall": 0.8587234042553191,
+          "roc_auc": 0.9689738805970151,
+          "specificity": 0.9533582089552238,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.04664179104477612,
+          "alarm_enabled": true,
+          "alerts": 50,
+          "allowed": 53,
+          "n": 1072,
+          "target_rate": 0.05,
+          "threshold": 0.6373494267463685
+        },
+        "step": 826,
+        "train_loss": 0.13917002249879667
+      },
+      "bundle_sha256": "2f9aaf090ad26b84d964c0c8e7d63b6f8ffde633374e812a9615ce09451d6414",
+      "config_id": "counts_api_component",
+      "data_variant": "api-component",
+      "elapsed_seconds": 6.376666619999924,
+      "gpu_slot": 1,
+      "id": "counts_api_component",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 11243,
+      "result_sha256": "50a21efe405631b74b6ac78e990ce9ca7e3c5339753ef85c590f92cc79f6e3f5",
+      "run": "diagnostics/counts_api_component",
+      "seed": 17,
+      "view": "api"
+    }
+  ],
+  "elapsed_seconds": 135.0183481170002,
+  "files": {
+    "candidates-cnn-lr0.log": "5381c53353e0847fdc7fac409dd27debd699760f3f54c9cca1e482c8307bc116",
+    "candidates-cnn-lr1.log": "3fc3ad1a93c1965d8e15d67c1d5cc970ba1a03fb8a1dc3d6cd00908b1346e95f",
+    "candidates-counts-lr0.log": "8e0d4754bb6c448c8946f2124f7789f3a27c7dcc5ace9196b471e418057a677c",
+    "candidates-counts-lr1.log": "77b48a96a09c5201e2ddb25ef40b9b607d809cefaefef168b840bb67080a901a",
+    "candidates-gru-lr0.log": "7b6014dc1ef03ff2c57cecd1081af801d0e4878f62c1a147147d66cb009e591f",
+    "candidates-gru-lr1.log": "6142086a1cb8138c92b5c4c5cc733baf67b94191ae6004935ec49098ead8c613",
+    "candidates/cnn-lr0/bundle/bundle.json": "d1b17cc58b570d1068b5d7fe89a92a3aeb25441f3bf4568aa339af47ae3a857b",
+    "candidates/cnn-lr0/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/cnn-lr0/bundle/weights.pt": "4733d16b06d3657e2b3ae8ed2418575bd0977b32c7d72b16c3f39d3e6ccfb5f8",
+    "candidates/cnn-lr0/recovery-0.pt": "d6303cce1216374c9d311690ada0561f0f8486c402a6baa0e2fd0de3fd353971",
+    "candidates/cnn-lr0/recovery-1.pt": "f4b99c57ede86c790af7f8f3de9b21009c5c5ad7bc720ea8642dda26d8575866",
+    "candidates/cnn-lr0/recovery.json": "5f2ee157f79af204172e15147ad233e24a3b373c46c7da0ece61f61e7705a8df",
+    "candidates/cnn-lr0/result.json": "9692c62cb45707959328aa19cdc35cb094038402f79403b369fa2b86772f92e2",
+    "candidates/cnn-lr0/run.json": "01e47ed14f1d092ab437af51cc358c93f9c392d6afdd035fd581fedbcf8bed5d",
+    "candidates/cnn-lr1/bundle/bundle.json": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+    "candidates/cnn-lr1/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/cnn-lr1/bundle/weights.pt": "8e5fe7c22fe63b3edc25cf939d79d6f23d8ad984f3a20d31dd268cf1636c7f98",
+    "candidates/cnn-lr1/recovery-0.pt": "05e4fca453b1efc182a22be58f32dd8c3be4ff237110a40e96e48dda8d6c0a90",
+    "candidates/cnn-lr1/recovery-1.pt": "09346c686a29a5795112dafd97821c9a685c3a6ad489b934c9ca5d8a74c93761",
+    "candidates/cnn-lr1/recovery.json": "34dd896aba2b0a2c818bfd751ca0f44c0a18b6219e29813c6bec7ed579dcb0c0",
+    "candidates/cnn-lr1/result.json": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b",
+    "candidates/cnn-lr1/run.json": "5d0322c2f87540118c722c926075cebaa5c3005d0f257b2a89cce152a1cfae99",
+    "candidates/counts-lr0/bundle/bundle.json": "84f14c1d9f7544155fd35ff9aef87444ec96536dbb8018b8660c59e6afc31206",
+    "candidates/counts-lr0/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/counts-lr0/bundle/weights.pt": "b21b962f8a9e0433412653825a3bda8532f47673bb02a07219aba20781360f64",
+    "candidates/counts-lr0/recovery-0.pt": "f5813d267498b9ea8a19a055a2343bf4f973aa4db0e5aa5099bb4e386a9e84c6",
+    "candidates/counts-lr0/recovery-1.pt": "fc02c6c610caee4d7f94db471bd15f0d3f7a286602a9eaadd1ae984c332b6cfe",
+    "candidates/counts-lr0/recovery.json": "e7b4dd609decebfda7f0417e6c94903b6eaed06832e8de8ab2d6d4c190f61902",
+    "candidates/counts-lr0/result.json": "d313543349e91773ad210ccacc9a074de19702b97eaec006952a64d992e425e9",
+    "candidates/counts-lr0/run.json": "56c4583da104e0ff8d90037e797605794792de2c928b9b58e1241cfd6f44f7c9",
+    "candidates/counts-lr1/bundle/bundle.json": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+    "candidates/counts-lr1/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/counts-lr1/bundle/weights.pt": "8e37c7556f21eb4d52b82a1f73199b8903cc2ad3c3a3b61389e02bc054f8d990",
+    "candidates/counts-lr1/recovery-0.pt": "f5637bf2e4c87eea88e535808e374610b03e2216c55a0042517fc572b20a254a",
+    "candidates/counts-lr1/recovery-1.pt": "bbf1f23eee52492cc2534a18fdfbe0f80455d19b5b5f6e551cfc5cd20560541b",
+    "candidates/counts-lr1/recovery.json": "60e2db1e4a088cfc156407d33874dd3506f6d5b04ee2475521e85c341423372a",
+    "candidates/counts-lr1/result.json": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7",
+    "candidates/counts-lr1/run.json": "39059adbfe6d4a902a3dc5dd1e6ffd60f799b5412bfc67d01ebd8faa1acfbc93",
+    "candidates/gru-lr0/bundle/bundle.json": "158aaa86a533904c1534921870797fe893ca31dbcf2559bcba01665d6706f8d7",
+    "candidates/gru-lr0/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/gru-lr0/bundle/weights.pt": "2049904a7d9e52e6ff4f8d0ac76b109d83707cc174292377de0fbc5c957c041a",
+    "candidates/gru-lr0/recovery-0.pt": "c200583133cace74a7ca220b865a511877fee0a04f2f76fafddd3d3f0f6b2732",
+    "candidates/gru-lr0/recovery-1.pt": "c3c29105aa07e82be1d8913ac756a34e2b6132c375223e9d5f1e6bcec5402dca",
+    "candidates/gru-lr0/recovery.json": "5ee9eee93cae8f9bf4341c5d8748a60cfc52890e1444673449185151618a0ddf",
+    "candidates/gru-lr0/result.json": "3850371cba3555ac34ce0e46c8ffe6c302e0fb52d9fbd3cac84d0795d33defd7",
+    "candidates/gru-lr0/run.json": "a81a1c427579e7abf903e0a16c34e6d415a54751c6ef30e81cd6818280e87e9a",
+    "candidates/gru-lr1/bundle/bundle.json": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+    "candidates/gru-lr1/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "candidates/gru-lr1/bundle/weights.pt": "53b0faf41b6b349629bfd476ba7847f57d5e7c7c9817d3a98afb0eab77497b20",
+    "candidates/gru-lr1/recovery-0.pt": "1b582aa159cf02e0dd5a919a68e4d1a3e5b9a7d71bef9a359476f23a995204bd",
+    "candidates/gru-lr1/recovery-1.pt": "30e870250920899b34444db1bdb90cfe6e86f1479bd627e9976a59dea30d84cb",
+    "candidates/gru-lr1/recovery.json": "9084041d205b6564ef4bed5979095281a1c1d840c984fcb79a2026ba2484287c",
+    "candidates/gru-lr1/result.json": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0",
+    "candidates/gru-lr1/run.json": "3080de27af00737ae5b7a10ab134cf994d8a068494365e5dc84e3c8ec35214fb",
+    "diagnostics-counts_api.log": "e8a5d9122f2a0ab3ecc337e13dc3eef21926843a76d02ea5607e9ba18d53adc1",
+    "diagnostics-counts_api_component.log": "26d11a2c0e003d3da47da629561f348dbbd2ab3a264b5ddfea4b514c1cee3daa",
+    "diagnostics-counts_missingness.log": "f92076713d7fcf88a118bde3469d699d28736bbd155c8107b771186ffc26101a",
+    "diagnostics/counts_api/bundle/bundle.json": "34bd8af3eabe671b1f295306cf23fa8351aea75de29deb88ff667353cc18ae47",
+    "diagnostics/counts_api/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "diagnostics/counts_api/bundle/weights.pt": "1ad8a4833ba8e77b857499d2bd233f85537fe01d07097a54c70477bc162c7727",
+    "diagnostics/counts_api/recovery-0.pt": "19a72d6c0f6aba53eca110ca8c2656393f9ca1b454a479e2b2a8d957975e4f57",
+    "diagnostics/counts_api/recovery-1.pt": "828f6c09ef24b8eb92c4fbccbe0ac13188b6bffe5e041105472676d1eb363c59",
+    "diagnostics/counts_api/recovery.json": "57ce0cd14ff824baa591f22c76e7dd0364197a58893b8df1628d20c01dfc231d",
+    "diagnostics/counts_api/result.json": "5eebdd94b2796e7d4f313de1910c19ffebb71da0c5157e18650e96e6ed2ff2c3",
+    "diagnostics/counts_api/run.json": "4337a6150d38d99ea186f6b44bb15772c9b3d9abc695246f5048570e3854ca77",
+    "diagnostics/counts_api_component/bundle/bundle.json": "2f9aaf090ad26b84d964c0c8e7d63b6f8ffde633374e812a9615ce09451d6414",
+    "diagnostics/counts_api_component/bundle/vocabulary.json": "71faf0ab041a18c4605b768752e221d93e6a52ca95a0c17acca94aaa3812115b",
+    "diagnostics/counts_api_component/bundle/weights.pt": "6a30a13195ea02649d56ab7fb19adabd4a0ae420d8d8938c61696c59cb1d8a4e",
+    "diagnostics/counts_api_component/recovery-0.pt": "7a70f19a7b852a044212d885196fb443632fe55eb638079224cb1308f2c62c01",
+    "diagnostics/counts_api_component/recovery-1.pt": "7d4b168a5c3cd286e80001dca0c30e6236bc9b45f71cb49bf0072eb833709a04",
+    "diagnostics/counts_api_component/recovery.json": "9628dfa69c11742bb58e8885e5ae8d0084c6d0d7a28a1814081e759ea1d77f12",
+    "diagnostics/counts_api_component/result.json": "50a21efe405631b74b6ac78e990ce9ca7e3c5339753ef85c590f92cc79f6e3f5",
+    "diagnostics/counts_api_component/run.json": "08286f3e22562db4c66eb1fc4c7f02dbb10d17e1f1d108dbdb963ce1fa879c94",
+    "diagnostics/counts_missingness/bundle/bundle.json": "1622639b4d6b3bce3914ed8e9a7903d3221af15b47dc2c3d6e97cd786f0b232a",
+    "diagnostics/counts_missingness/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "diagnostics/counts_missingness/bundle/weights.pt": "e5ec3291bc7cf356bb224c0a785af583339ac4b0e84954df01fe6f435c47ab2e",
+    "diagnostics/counts_missingness/recovery-0.pt": "21ec7f7742e009987d94c9a6169ff036dcbda131ffefc3e589877097a4e44259",
+    "diagnostics/counts_missingness/recovery-1.pt": "a48f84779b6e0e94ade3d66af7a7fa1b9cd28975817c113e0b821bc8dee355ca",
+    "diagnostics/counts_missingness/recovery.json": "bb998a2d54aa08819c0d36766d73ad74c88b15b1461eaf8330e8d63832bee0cb",
+    "diagnostics/counts_missingness/result.json": "a164a014ca4bcfe43d7ec4f30ca2afae5e1ec3d7e6b154ed94c6ac2385566448",
+    "diagnostics/counts_missingness/run.json": "b5abb5773aed9e3ecc415e9a07f8700afd9fd606912683469bf225ac1e3e0f8d",
+    "protocol.json": "1a0bda84be8c5fa9d2e5a24727f0dbe06c478df197e4dba31863650a705342ec",
+    "selection.json": "e65c172478ed1ea8779b25945c9d59fe77e0d760b5dbca1c1aecea37b34368e4",
+    "stability-cnn-seed29.log": "3b081d7f89e49d236d436f652a01d10979eb5cbc3303eb2fde1c9715fee794fc",
+    "stability-cnn-seed43.log": "633ce7c62e46cec6da73deb03c41263fdaff068a235d8b6aa331a53f99d250b6",
+    "stability-counts-seed29.log": "219fa579494d9f6ca9ee95126eaa69db24b096c3bf7eda3f90c03b8926f676d8",
+    "stability-counts-seed43.log": "6d0fbd79a685fda51f2dd58b0d4e7d7f53d9bff616b45aeae29d7da333d671e7",
+    "stability-gru-seed29.log": "71e982ce7e85d3650f87f1dc299515ac1f641fb0bfc37e7f6191458eb5940261",
+    "stability-gru-seed43.log": "090e7a728b4e446056994fbcec67ad86ebab9aad7b9b4cdb0f7d57a2e6be492a",
+    "stability/cnn-seed29/bundle/bundle.json": "e32912e00235f457900f0cce345042ba0dbc36cfa295f293a453fc2a39194a95",
+    "stability/cnn-seed29/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/cnn-seed29/bundle/weights.pt": "d8e24b817c0750350374d81dc6cd2b21f9519c6624502206a84c67f2fea07df2",
+    "stability/cnn-seed29/recovery-0.pt": "f31ed4e86d8473961914780cabf247b0b143efcca5586209f190d513690b7041",
+    "stability/cnn-seed29/recovery-1.pt": "db0c2a13d981125ac8cf4de59a51afd7772ed59d74f0f3e5211e260866408366",
+    "stability/cnn-seed29/recovery.json": "1aaa45d8f6668025a622ed0860a73561c092f1c452684be6382c4c62c788db99",
+    "stability/cnn-seed29/result.json": "7cbed967da20a859b86ece4812f8a0ea84a745ad65f85c9df3194a25bdf8e3a8",
+    "stability/cnn-seed29/run.json": "fcd09609f3d2ad1220a6eb5c20412d5eb82d7a549edeed430406ce89434c753b",
+    "stability/cnn-seed43/bundle/bundle.json": "05d08b148f42015e2b2a2bffdb0feb33c498e56b72fb4cc5308cdd1635310dcd",
+    "stability/cnn-seed43/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/cnn-seed43/bundle/weights.pt": "06d06053d569bb7e97855c6657c7caddbcdb4560b6a372afba775bc62f7101c5",
+    "stability/cnn-seed43/recovery-0.pt": "2cf1d4dc27e5eb663021ec00a8b68227e01754cf4c4caedf6186f2a875af7542",
+    "stability/cnn-seed43/recovery-1.pt": "75c92598defee66a9e48ac9668c38ed3be9a0264b9d89e9f97dd6bed4972576d",
+    "stability/cnn-seed43/recovery.json": "b6b18a55bf55f62667f01a671405169927a16ad2e8a1493556f60956634667ee",
+    "stability/cnn-seed43/result.json": "a83bab1513db6717dc774e98c45ae7db268b0f7bf06e371e4e20e86182aadbd7",
+    "stability/cnn-seed43/run.json": "7cad3a9f7750aa049a5dc9ea8d419f935f9698fe29b98c88b7719d56ddf29e1b",
+    "stability/counts-seed29/bundle/bundle.json": "232152c2fca226672c54fc85b77ac547cf0a3f3e0b999bb84ac6f25afcd561ec",
+    "stability/counts-seed29/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/counts-seed29/bundle/weights.pt": "58a46c8d6f01b342761814d7b66fb97c86f0eb238b413a2e27b78da7559d2f93",
+    "stability/counts-seed29/recovery-0.pt": "fb35c08e713c1f5bec5c92a6aeca3408c76efa1194a3d5a1434f0ab2a94fff0e",
+    "stability/counts-seed29/recovery-1.pt": "1a140fc86e763ca340e617d756d5db864d216779ed4eae60739a86ba9ee5e9ed",
+    "stability/counts-seed29/recovery.json": "d286872f88d6a0302199affa68c0c3ee05bb9a2ad18f11881f54cf509d4fc33c",
+    "stability/counts-seed29/result.json": "021d2eee27b5e3c38b88121e19c8d4c672dce899e7719f594502834746ae302a",
+    "stability/counts-seed29/run.json": "9068b1be5ecd5f120807d8ae9c2d964d9beed49d4ab2a9e4e0966a3e21492c84",
+    "stability/counts-seed43/bundle/bundle.json": "5732ff429dc49ee540b10155887bb26dc5ebc27d7d054c83dfa7109ad69eb0e0",
+    "stability/counts-seed43/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/counts-seed43/bundle/weights.pt": "44b938a62d097ddd48794f1068c999aa72ee8223ce93c0752a2bc77a2ef6961b",
+    "stability/counts-seed43/recovery-0.pt": "5303596cf400bb9d55ea48248e3aa3e20b504e5979d989dc3dd7c51e662b2c9b",
+    "stability/counts-seed43/recovery-1.pt": "c9fe9d799212154183e03e2a10d3c8c92c90bfdc7adbf04c93c6e3742e60cd7c",
+    "stability/counts-seed43/recovery.json": "c9e37067afeac8182ed25c2e94a92bca388bd9cddb9fe2c4cd61e510b39e129f",
+    "stability/counts-seed43/result.json": "f20aa47e6290f920fe344a9d6fed1373e8f315a0e0a8a8880d7ccef816e8d76d",
+    "stability/counts-seed43/run.json": "a30e89305ec9bebdc15aa7de905e5242000bd848a15ad4d50a72f3d0bdaf74ec",
+    "stability/gru-seed29/bundle/bundle.json": "9cb8f4ebdfb182d3d27a1a6a5b355bf77697892cb1c2297fa3247bc8d5894b45",
+    "stability/gru-seed29/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/gru-seed29/bundle/weights.pt": "4570b005a73a225bf47f9e624d59471c8c215b5e746cf871bfeecb131ceef5f9",
+    "stability/gru-seed29/recovery-0.pt": "d4f0ce23250015ecbcca89d643e445ae1365651a301abb6208b0182b8330d311",
+    "stability/gru-seed29/recovery-1.pt": "6710ae23131bbfba1395475fe5228af272ebfd465a700f05fe09e45c2ef30a18",
+    "stability/gru-seed29/recovery.json": "50f59e1edb4021b1ea0eb720bce3787234b2d6ff51815042a4aa153d6f703669",
+    "stability/gru-seed29/result.json": "7b8d8797a72a828e90c53fe1663901ac8d89d6acdcc64a2ac4b66ede98d74342",
+    "stability/gru-seed29/run.json": "6f31b5b2aa519102e81f0c9cc87d1a0416a902dd6691a9e92c2ceb1c5cb83c30",
+    "stability/gru-seed43/bundle/bundle.json": "5b23282e3b8e1d48af0819e34c0f6fb761b387913568da471a0766dbe9a9fd14",
+    "stability/gru-seed43/bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+    "stability/gru-seed43/bundle/weights.pt": "c65fa54bbdecdbefcf8babcaa6e8598426c1fb30d4ebd4bdfa0189994145c9fe",
+    "stability/gru-seed43/recovery-0.pt": "8863f1236f550f09b67b2c90a861faae7eb052c97412eb4af31c1fb52aa152c5",
+    "stability/gru-seed43/recovery-1.pt": "436042e30c4bb4cb46b54d72fa414bf10ee03c52caf5fbc5439432c5f4a44502",
+    "stability/gru-seed43/recovery.json": "439c54e794dfab539ba78cd28e18b23cfc1c8dcf1204acc53b9168059fab3592",
+    "stability/gru-seed43/result.json": "d0576c4c990b1c49c13440946d0b907c625f5145bf92483c2f9fcb35fb38379e",
+    "stability/gru-seed43/run.json": "33701f9437ecec08acbc80d426d5cbcf77bc0ff6ed72c7b8dee861f0b3e7550e"
+  },
+  "gpu_restart_smoke_passed": true,
+  "primary": [
+    {
+      "best": {
+        "confusion": {
+          "fn": 6,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1039
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.9706013363028954,
+          "average_precision": 0.9965818018343283,
+          "balanced_accuracy": 0.9721291866028707,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9718670076726342,
+              "precision": 0.9947643979057592,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9692164179104478,
+              "precision": 0.9454049135577798,
+              "recall": 0.9942583732057416,
+              "support": 1045
+            }
+          },
+          "f1": 0.9692164179104478,
+          "fnr": 0.005741626794258373,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9875302481562056,
+              0.9973659831212021
+            ]
+          },
+          "mcc": 0.942211624095417,
+          "precision": 0.9454049135577798,
+          "recall": 0.9942583732057416,
+          "roc_auc": 0.9971738437001595,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.33143398165702825
+        },
+        "step": 848,
+        "train_loss": 0.02304561689506483
+      },
+      "bundle_sha256": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+      "config_id": "cnn-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 13.229519248000088,
+      "gpu_slot": 1,
+      "id": "cnn",
+      "lr": 0.001,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b",
+      "run": "candidates/cnn-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 18,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1027
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9652561247216036,
+          "average_precision": 0.9940925995409816,
+          "balanced_accuracy": 0.9663875598086125,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9669211195928753,
+              "precision": 0.9844559585492227,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9634146341463414,
+              "precision": 0.9448022079116836,
+              "recall": 0.9827751196172249,
+              "support": 1045
+            }
+          },
+          "f1": 0.9634146341463414,
+          "fnr": 0.01722488038277512,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9729367750403869,
+              0.989077065578107
+            ]
+          },
+          "mcc": 0.9310149823584232,
+          "precision": 0.9448022079116836,
+          "recall": 0.9827751196172249,
+          "roc_auc": 0.9941387559808612,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.3445918262004853
+        },
+        "step": 1060,
+        "train_loss": 0.06688953497838289
+      },
+      "bundle_sha256": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+      "config_id": "counts-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.235364351000044,
+      "gpu_slot": 0,
+      "id": "counts",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7",
+      "run": "candidates/counts-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 37,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1008
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.956792873051225,
+          "average_precision": 0.9889727127266673,
+          "balanced_accuracy": 0.9572966507177033,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9591922591501894,
+              "precision": 0.9685641461342396,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9540937056318031,
+              "precision": 0.9438202247191011,
+              "recall": 0.9645933014354067,
+              "support": 1045
+            }
+          },
+          "f1": 0.9540937056318031,
+          "fnr": 0.0354066985645933,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9515787119587067,
+              0.974204676783174
+            ]
+          },
+          "mcc": 0.9134881684602288,
+          "precision": 0.9438202247191011,
+          "recall": 0.9645933014354067,
+          "roc_auc": 0.9903221690590112,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.6926506161689759
+        },
+        "step": 848,
+        "train_loss": 0.07152442346085168
+      },
+      "bundle_sha256": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+      "config_id": "gru-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.089882622999994,
+      "gpu_slot": 0,
+      "id": "gru",
+      "lr": 0.001,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0",
+      "run": "candidates/gru-lr1",
+      "seed": 17,
+      "view": "all"
+    }
+  ],
+  "protocol_sha256": "1a0bda84be8c5fa9d2e5a24727f0dbe06c478df197e4dba31863650a705342ec",
+  "schema": "xran-campaign-complete-v1",
+  "selection_frozen_at": "2026-11-17T16:54:53.753289+00:00",
+  "selection_sha256": "e65c172478ed1ea8779b25945c9d59fe77e0d760b5dbca1c1aecea37b34368e4",
+  "stability": [
+    {
+      "best": {
+        "confusion": {
+          "fn": 7,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1038
+        },
+        "epoch": 9,
+        "metrics": {
+          "accuracy": 0.9701559020044543,
+          "average_precision": 0.9973749412537609,
+          "balanced_accuracy": 0.9716507177033493,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9714529186195143,
+              "precision": 0.993897122929381,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9687354176388241,
+              "precision": 0.9453551912568307,
+              "recall": 0.9933014354066986,
+              "support": 1045
+            }
+          },
+          "f1": 0.9687354176388241,
+          "fnr": 0.0066985645933014355,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9862378778347094,
+              0.9967514875544554
+            ]
+          },
+          "mcc": 0.9412746975144487,
+          "precision": 0.9453551912568307,
+          "recall": 0.9933014354066986,
+          "roc_auc": 0.9975462519936203,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.04174682497978211
+        },
+        "step": 954,
+        "train_loss": 0.018232476795256126
+      },
+      "bundle_sha256": "e32912e00235f457900f0cce345042ba0dbc36cfa295f293a453fc2a39194a95",
+      "config_id": "cnn-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 13.61027100299998,
+      "gpu_slot": 1,
+      "id": "cnn",
+      "lr": 0.001,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "7cbed967da20a859b86ece4812f8a0ea84a745ad65f85c9df3194a25bdf8e3a8",
+      "run": "stability/cnn-seed29",
+      "seed": 29,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 9,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1036
+        },
+        "epoch": 7,
+        "metrics": {
+          "accuracy": 0.9692650334075724,
+          "average_precision": 0.996973416424682,
+          "balanced_accuracy": 0.9706937799043063,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9706257982120051,
+              "precision": 0.9921671018276762,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9677720691265763,
+              "precision": 0.9452554744525548,
+              "recall": 0.9913875598086125,
+              "support": 1045
+            }
+          },
+          "f1": 0.9677720691265763,
+          "fnr": 0.00861244019138756,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9837132018411997,
+              0.9954624317714796
+            ]
+          },
+          "mcc": 0.9394029761470577,
+          "precision": 0.9452554744525548,
+          "recall": 0.9913875598086125,
+          "roc_auc": 0.997371610845295,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.09297656267881395
+        },
+        "step": 742,
+        "train_loss": 0.026394640533219663
+      },
+      "bundle_sha256": "05d08b148f42015e2b2a2bffdb0feb33c498e56b72fb4cc5308cdd1635310dcd",
+      "config_id": "cnn-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 13.661679546999949,
+      "gpu_slot": 0,
+      "id": "cnn",
+      "lr": 0.001,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "a83bab1513db6717dc774e98c45ae7db268b0f7bf06e371e4e20e86182aadbd7",
+      "run": "stability/cnn-seed43",
+      "seed": 43,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 16,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1029
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9661469933184855,
+          "average_precision": 0.9941556943811135,
+          "balanced_accuracy": 0.9673444976076555,
+          "class_report": {
+            "healthy": {
+              "f1": 0.967741935483871,
+              "precision": 0.986159169550173,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9643861293345829,
+              "precision": 0.9449035812672176,
+              "recall": 0.9846889952153111,
+              "support": 1045
+            }
+          },
+          "f1": 0.9643861293345829,
+          "fnr": 0.015311004784688996,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9752737312110435,
+              0.9905538411839361
+            ]
+          },
+          "mcc": 0.9328741110374489,
+          "precision": 0.9449035812672176,
+          "recall": 0.9846889952153111,
+          "roc_auc": 0.9941706539074959,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.29157364368438726
+        },
+        "step": 1060,
+        "train_loss": 0.06734196132121854
+      },
+      "bundle_sha256": "232152c2fca226672c54fc85b77ac547cf0a3f3e0b999bb84ac6f25afcd561ec",
+      "config_id": "counts-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.469517798999732,
+      "gpu_slot": 1,
+      "id": "counts",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "021d2eee27b5e3c38b88121e19c8d4c672dce899e7719f594502834746ae302a",
+      "run": "stability/counts-seed29",
+      "seed": 29,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 18,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1027
+        },
+        "epoch": 9,
+        "metrics": {
+          "accuracy": 0.9652561247216036,
+          "average_precision": 0.9940282654743453,
+          "balanced_accuracy": 0.9663875598086125,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9669211195928753,
+              "precision": 0.9844559585492227,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9634146341463414,
+              "precision": 0.9448022079116836,
+              "recall": 0.9827751196172249,
+              "support": 1045
+            }
+          },
+          "f1": 0.9634146341463414,
+          "fnr": 0.01722488038277512,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9729367750403869,
+              0.989077065578107
+            ]
+          },
+          "mcc": 0.9310149823584232,
+          "precision": 0.9448022079116836,
+          "recall": 0.9827751196172249,
+          "roc_auc": 0.9940007974481658,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.3086347579956055
+        },
+        "step": 954,
+        "train_loss": 0.06968799475869526
+      },
+      "bundle_sha256": "5732ff429dc49ee540b10155887bb26dc5ebc27d7d054c83dfa7109ad69eb0e0",
+      "config_id": "counts-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.39914900399981,
+      "gpu_slot": 0,
+      "id": "counts",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "f20aa47e6290f920fe344a9d6fed1373e8f315a0e0a8a8880d7ccef816e8d76d",
+      "run": "stability/counts-seed43",
+      "seed": 43,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 28,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1017
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9608017817371938,
+          "average_precision": 0.9922215913882431,
+          "balanced_accuracy": 0.9616028708133971,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9628378378378378,
+              "precision": 0.976027397260274,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9585296889726673,
+              "precision": 0.9442896935933147,
+              "recall": 0.9732057416267943,
+              "support": 1045
+            }
+          },
+          "f1": 0.9585296889726673,
+          "fnr": 0.026794258373205742,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9615473568815814,
+              0.9813978248544845
+            ]
+          },
+          "mcc": 0.9217602846691222,
+          "precision": 0.9442896935933147,
+          "recall": 0.9732057416267943,
+          "roc_auc": 0.992609250398724,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.36981174349784857
+        },
+        "step": 1060,
+        "train_loss": 0.06006008134331196
+      },
+      "bundle_sha256": "9cb8f4ebdfb182d3d27a1a6a5b355bf77697892cb1c2297fa3247bc8d5894b45",
+      "config_id": "gru-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.49805296400018,
+      "gpu_slot": 0,
+      "id": "gru",
+      "lr": 0.001,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "7b8d8797a72a828e90c53fe1663901ac8d89d6acdcc64a2ac4b66ede98d74342",
+      "run": "stability/gru-seed29",
+      "seed": 29,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 33,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1012
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9585746102449889,
+          "average_precision": 0.9918013149258915,
+          "balanced_accuracy": 0.9592105263157895,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9608091024020228,
+              "precision": 0.9718670076726342,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9560699102503543,
+              "precision": 0.9440298507462687,
+              "recall": 0.968421052631579,
+              "support": 1045
+            }
+          },
+          "f1": 0.9560699102503543,
+          "fnr": 0.031578947368421054,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9559838983231154,
+              0.9774269539717365
+            ]
+          },
+          "mcc": 0.9171580871425847,
+          "precision": 0.9440298507462687,
+          "recall": 0.968421052631579,
+          "roc_auc": 0.9923580542264753,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.4377140104770661
+        },
+        "step": 1060,
+        "train_loss": 0.08065883060801077
+      },
+      "bundle_sha256": "5b23282e3b8e1d48af0819e34c0f6fb761b387913568da471a0766dbe9a9fd14",
+      "config_id": "gru-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.513909896999849,
+      "gpu_slot": 1,
+      "id": "gru",
+      "lr": 0.001,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "d0576c4c990b1c49c13440946d0b907c625f5145bf92483c2f9fcb35fb38379e",
+      "run": "stability/gru-seed43",
+      "seed": 43,
+      "view": "all"
+    }
+  ],
+  "test_outcomes_opened": false
+}

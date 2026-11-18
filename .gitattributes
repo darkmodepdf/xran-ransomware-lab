@@ -1,0 +1,19 @@
+* text=auto eol=lf
+*.py text eol=lf
+*.md text eol=lf
+README.legacy.md -text
+*.toml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.js text eol=lf
+*.css text eol=lf
+*.html text eol=lf
+*.ps1 text eol=crlf
+# Evidence receipts include byte hashes. Preserve their exact bytes across clones.
+*.json -text
+docs/experiments/** -text
+output/research/xran-original-executed/** -text
+*.jpg -text
+*.jpeg -text
+*.png -text
+models/**/weights.pt -text

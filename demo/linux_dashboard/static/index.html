@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RanEval · Linux telemetry</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+  <script src="/comparison.js" defer></script>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="brand"><span class="brand-mark" aria-hidden="true"></span>RanEval <span>Linux telemetry</span></div>
+      <div class="runtime" id="runtime">Reading replay configuration</div>
+    </div>
+  </header>
+
+  <main>
+    <div class="dashboard-tabs" role="tablist" aria-label="Dashboard views">
+      <button type="button" role="tab" id="replay-tab" aria-controls="replay" aria-selected="true">Detection replay</button>
+      <button type="button" role="tab" id="comparison-tab" aria-controls="comparison" aria-selected="false" tabindex="-1">Model comparison</button>
+    </div>
+    <div id="replay" role="tabpanel" aria-labelledby="replay-tab">
+    <div class="intro">
+      <div>
+        <h1>Linux ransomware detection</h1>
+        <p>Run live inference on recorded telemetry and measure the write gate on generated files.</p>
+      </div>
+      <form id="controls" class="controls">
+        <label>Recorded trace
+          <select id="scenario" disabled></select>
+        </label>
+        <label>Replay speed
+          <select id="speed" disabled></select>
+        </label>
+        <button class="primary" id="start" disabled>Start replay</button>
+        <button class="secondary" type="button" id="stop" hidden>Stop</button>
+      </form>
+    </div>
+
+    <div class="status" id="status" data-state="ready" role="status">
+      <span class="status-dot" aria-hidden="true"></span>
+      <div><strong id="state">Loading</strong><span id="state-detail">Preparing the replay controls.</span></div>
+    </div>
+
+    <div class="panels">
+      <section class="panel scores" aria-labelledby="scores-heading">
+        <div class="panel-title">
+          <h2 id="scores-heading">Detector score</h2>
+          <span id="model" class="subdued">Frozen model</span>
+        </div>
+        <dl class="score-metrics">
+          <div><dt>Observed events</dt><dd id="observed">—</dd></div>
+          <div><dt>Latest score</dt><dd id="current-score">—</dd></div>
+          <div><dt>Frozen threshold</dt><dd id="threshold">—</dd></div>
+          <div><dt>First alert</dt><dd id="first-alert">—</dd></div>
+        </dl>
+        <div class="chart"><canvas id="plot" role="img" aria-label="Line chart of model scores by observation, with the frozen threshold and first alert marked."></canvas></div>
+        <div class="chart-key">
+          <span class="line-key">Model score</span>
+          <span class="threshold-key" id="threshold-key">Frozen threshold</span>
+          <span class="alert-key">First alert</span>
+          <small id="throughput" class="throughput" title="Observed event-processing rate, including replay pacing"></small>
+        </div>
+      </section>
+
+      <section class="panel response" aria-labelledby="response-heading">
+        <div class="panel-title">
+          <h2 id="response-heading">File response</h2>
+          <span class="gate" id="gate" data-state="open">Gate open</span>
+        </div>
+        <p class="panel-description">Both sides start with byte-identical files and receive the same write attempts.</p>
+
+        <div class="measures">
+          <div class="measure monitor">
+            <div><span>Monitor only</span><strong id="monitor-count">0</strong></div>
+            <progress id="monitor-bar" value="0" max="1" aria-label="Files modified in monitor-only mode"></progress>
+            <small>Files modified</small>
+          </div>
+          <div class="measure protected">
+            <div><span>Write gate enabled</span><strong id="protected-count">0</strong></div>
+            <progress id="protected-bar" value="0" max="1" aria-label="Files modified with the gate enabled"></progress>
+            <small>Files modified</small>
+          </div>
+        </div>
+
+        <div class="preserved">
+          <div>
+            <span>Writes blocked</span>
+            <strong id="blocked-count">0</strong>
+          </div>
+          <p id="integrity">SHA-256 verification runs when the replay finishes.</p>
+          <div class="file-map" id="file-map" aria-hidden="true"></div>
+        </div>
+      </section>
+    </div>
+
+    <section class="panel events" aria-labelledby="events-heading">
+      <div class="panel-title">
+        <h2 id="events-heading">Recent observations</h2>
+        <button type="button" class="text-button" id="download" disabled>Save replay report</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th scope="col">Event</th><th scope="col">Observation</th><th scope="col">Score</th><th scope="col">Monitor only</th><th scope="col">Write gate</th></tr></thead>
+          <tbody id="events"><tr><td class="table-empty" colspan="5">Start a replay to see observations.</td></tr></tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      <p id="provenance">Loading trace provenance.</p>
+      <p>One harmless marker write is scheduled for each captured event. The gate blocks writes after the first alert.</p>
+    </footer>
+    </div>
+
+    <div id="comparison" role="tabpanel" aria-labelledby="comparison-tab" tabindex="0" hidden>
+      <div class="intro comparison-intro">
+        <div>
+          <h1>Model comparison</h1>
+          <p id="benchmark-title" hidden></p>
+        </div>
+        <dl class="comparison-budget" id="comparison-budget" hidden>
+          <dt>Target false-alarm budget</dt>
+          <dd><span id="benchmark-rate"></span><small id="benchmark-unit"></small></dd>
+        </dl>
+      </div>
+      <p class="panel comparison-status" id="comparison-status" role="status">Loading benchmark results.</p>
+      <div class="comparison-results" id="comparison-results" hidden>
+        <section class="panel comparison-panel" id="process-comparison" aria-labelledby="process-comparison-heading" hidden>
+          <div class="panel-title">
+            <h2 id="process-comparison-heading">Detection during mixed activity</h2>
+            <label>Background load <select id="process-schedule"></select></label>
+          </div>
+          <p id="process-comparison-method" class="panel-description"></p>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Shared and separate task detection results">
+            <table aria-labelledby="process-comparison-heading">
+              <thead><tr><th scope="col">Model</th><th scope="col">History</th><th scope="col">Calibration alarms</th><th scope="col">Benign session alarms</th><th scope="col">Early detections</th><th scope="col">Detected sessions</th><th scope="col">Clean task alarms in positive sessions</th></tr></thead>
+              <tbody id="process-comparison-rows"></tbody>
+            </table>
+          </div>
+          <p id="process-family-result" class="panel-description"></p>
+          <p id="process-comparison-limit" class="comparison-history"></p>
+        </section>
+        <section class="panel comparison-panel comparison-summary" aria-labelledby="comparison-summary-heading">
+          <div class="panel-title"><h2 id="comparison-summary-heading">Held-out results</h2></div>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Held-out results by model">
+            <table aria-labelledby="comparison-summary-heading">
+              <thead><tr><th scope="col">Model</th><th scope="col" id="comparison-first-alert-heading">Median first alert <span>Detected traces</span></th><th scope="col" id="comparison-early-heading">Early detections</th><th scope="col" id="comparison-detected-heading">Ransomware detected</th><th scope="col">Calibration false alarms</th><th scope="col">Test false alarms</th></tr></thead>
+              <tbody id="comparison-summary-rows"></tbody>
+            </table>
+          </div>
+          <p class="comparison-history" id="comparison-history" hidden></p>
+        </section>
+
+        <div class="comparison-cohorts">
+          <section class="panel comparison-panel" id="comparison-families-panel" aria-labelledby="comparison-families-heading">
+            <div class="panel-title"><h2 id="comparison-families-heading">Held-out ransomware families</h2></div>
+            <div class="table-wrap" tabindex="0" role="region" aria-label="Detection outcomes by ransomware family">
+              <table aria-labelledby="comparison-families-heading">
+                <thead id="comparison-family-columns"></thead>
+                <tbody id="comparison-family-rows"></tbody>
+              </table>
+            </div>
+          </section>
+          <section class="panel comparison-panel" aria-labelledby="comparison-benign-heading">
+            <div class="panel-title"><h2 id="comparison-benign-heading">False alarms by benign workload</h2></div>
+            <div class="table-wrap" tabindex="0" role="region" aria-label="False alarms by benign workload">
+              <table aria-labelledby="comparison-benign-heading">
+                <thead id="comparison-benign-columns"></thead>
+                <tbody id="comparison-benign-rows"></tbody>
+              </table>
+            </div>
+          </section>
+        </div>
+
+        <section class="panel comparison-panel" id="comparison-regression-panel" aria-labelledby="comparison-regression-heading" hidden>
+          <div class="panel-title"><h2 id="comparison-regression-heading">Previously evaluated ransomware captures</h2></div>
+          <div class="table-wrap" tabindex="0" role="region" aria-label="Detection regression by ransomware family">
+            <table aria-labelledby="comparison-regression-heading">
+              <thead id="comparison-regression-columns"></thead>
+              <tbody id="comparison-regression-rows"></tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="panel comparison-context" id="comparison-observed" aria-labelledby="comparison-observed-heading" hidden>
+          <div class="panel-title">
+            <h2 id="comparison-observed-heading">Live Linux syscall check</h2>
+            <span class="gate" id="comparison-observed-status"></span>
+          </div>
+          <p id="comparison-observed-workload"></p>
+          <p class="subdued" id="comparison-observed-detail"></p>
+        </section>
+
+        <section class="panel comparison-context" aria-labelledby="comparison-method-heading">
+          <h2 id="comparison-method-heading">Benchmark method</h2>
+          <p id="benchmark-method"></p>
+          <p class="subdued" id="benchmark-split" hidden></p>
+          <details id="benchmark-provenance" hidden>
+            <summary>Sources and cohort provenance</summary>
+            <ul id="benchmark-sources"></ul>
+          </details>
+        </section>
+        <section class="comparison-limitations" id="comparison-limitations" aria-labelledby="comparison-limitations-heading" hidden>
+          <h2 id="comparison-limitations-heading">Limitations</h2>
+          <ul id="benchmark-limitations"></ul>
+        </section>
+      </div>
+    </div>
+  </main>
+</body>
+</html>

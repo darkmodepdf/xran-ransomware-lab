@@ -1,0 +1,56 @@
+{
+  "model_sha256": "01b3497ca418991033fba338b301b5b823cf6ccedddecc81b82f9f9915a0e3cc",
+  "model_schema": "windows-native-forest-v2",
+  "threshold": 0.742904033012732,
+  "max_runtime_http_score_error": 0.0,
+  "scored_events": 902,
+  "wall_seconds": 17.99440560000221,
+  "owned_roots_removed": true,
+  "profiles": [
+    {
+      "pair": "default_concurrent",
+      "kind": "benign",
+      "events": 288,
+      "peak_score": 0.0441274154589372,
+      "first_invalid_seq": null,
+      "first_alert_seq": null,
+      "invalid_files_at_first_alert": null,
+      "status": "completed",
+      "final_invalid_files": 0
+    },
+    {
+      "pair": "default_concurrent",
+      "kind": "destructive",
+      "events": 360,
+      "peak_score": 0.9643770342474185,
+      "first_invalid_seq": 3,
+      "first_alert_seq": 4,
+      "invalid_files_at_first_alert": 1,
+      "status": "completed",
+      "final_invalid_files": 6
+    },
+    {
+      "pair": "delayed_concurrent",
+      "kind": "benign",
+      "events": 134,
+      "peak_score": 0.463922329346257,
+      "first_invalid_seq": 27,
+      "first_alert_seq": null,
+      "invalid_files_at_first_alert": null,
+      "status": "completed",
+      "final_invalid_files": 0
+    },
+    {
+      "pair": "delayed_concurrent",
+      "kind": "destructive",
+      "events": 120,
+      "peak_score": 0.9992378048780488,
+      "first_invalid_seq": 51,
+      "first_alert_seq": 55,
+      "invalid_files_at_first_alert": 2,
+      "status": "completed",
+      "final_invalid_files": 6
+    }
+  ],
+  "errors": []
+}

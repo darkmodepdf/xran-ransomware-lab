@@ -1,0 +1,21 @@
+{
+  "actual_fpr": 0.05,
+  "alarm_enabled": true,
+  "alerts": 60,
+  "allowed": 60,
+  "bundle_sha256": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+  "calibration_predictions": "primary-gru-seed17-calibration.jsonl",
+  "calibration_predictions_sha256": "cd791d08ed90857ee728a98a2b1dcf8b2e319967693232ecd886b0ea26b5bd9d",
+  "candidate_rule": "smallest admissible cutoff from 0 and nextafter(distinct score,+infinity), excluding values above 1",
+  "comparator": ">=",
+  "data_manifest_sha256": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+  "n": 1200,
+  "positive_calibration": "reserved and not scored",
+  "preprocessing_sha256": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+  "runtime_sha256": "03e6489d1b643d51619c0ee82dc5a17e7fdd0862255e5285ad621d0e446da725",
+  "schema": "xran-operating-point-v1",
+  "target_rate": 0.05,
+  "task": "ransomware_vs_benign",
+  "threshold": 0.7030481100082399,
+  "unit": "unique_released_feature_vector"
+}

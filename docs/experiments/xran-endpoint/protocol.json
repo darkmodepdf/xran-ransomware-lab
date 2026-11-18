@@ -1,0 +1,40 @@
+{
+  "batch_size": 128,
+  "calibration_alpha": 0.05,
+  "created_at": "2026-11-17T13:01:44.597430+00:00",
+  "datasets": {
+    "api-component": "8acb1067a0e5efa065e919856e79e141714d0c1899efb19ec54851acd4fc253a",
+    "primary": "c3f61d972a36d561703050ace7c43b9185c03ff2ee679012153c93aca3c7c836"
+  },
+  "diagnostics": [
+    "counts_api",
+    "counts_missingness",
+    "counts_api_component"
+  ],
+  "epochs": 10,
+  "final_backend": "Windows PyTorch CPU batch 1",
+  "heldout_sources": "deferred",
+  "learning_rates": {
+    "cnn": [
+      0.0003,
+      0.001
+    ],
+    "counts": [
+      0.003,
+      0.01
+    ],
+    "gru": [
+      0.0003,
+      0.001
+    ]
+  },
+  "primary_seed": 17,
+  "schema": "xran-campaign-protocol-v1",
+  "selection": "tune recall at 5%, then ROC-AUC, parameter count, config ID",
+  "source_commit": "2cfebbfe45d3ed47b0204096186877e5991d6324",
+  "stability_seeds": [
+    29,
+    43
+  ],
+  "weight_decay": 0.0001
+}

@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-17",
+  "spine_lint": {
+    "ok": true,
+    "spine": "architecture-xran-original.md",
+    "total_findings": 0,
+    "by_severity": {},
+    "findings": []
+  },
+  "checked_document_links": 5,
+  "broken_links": 0,
+  "inspector_syntax": "passed",
+  "all_row_root_verification": "data/processed/xran-original-root-verification.json",
+  "training_run": false,
+  "new_dashboard_deployed": false
+}

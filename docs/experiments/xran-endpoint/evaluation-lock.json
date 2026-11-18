@@ -1,0 +1,93 @@
+{
+  "campaign_sha256": "56db4e4956e8c3f9427a735d586317e20889a72c4ae0b28884f2bb5f1faf67fe",
+  "data_inputs": {
+    "api-component": {
+      "encoded.npz": "fb12f0eed3a2c56ee20d7b83c048a27359d211578e03d15928cfefc44766c1a1",
+      "groups.jsonl": "92eb53c1cf2e8e0a1d6874875b31bf281bb7969aa27153ce7da684c069659657",
+      "manifest.json": "ddb6b3b4c41272961fa200a50deb3256ef366480b0905b24c7ac4d2444ce2280",
+      "vocabulary.json": "973da26442211ad46e33612a9108693db0c466169c36094025b87ffab1572572"
+    },
+    "primary": {
+      "encoded.npz": "8a06fcec378ad34fb58f20eb980fe7a3f07b2b39844c3ab49ff06057b4705ea8",
+      "groups.jsonl": "123e42c313ca5e961ae467442acb8853795afb7c0da3ad5eb06a7e031219d081",
+      "manifest.json": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+      "vocabulary.json": "1586f52ef87e6f8e38c84ae2ee3763688455a0baeda57ecfadd06ad61db7be50"
+    }
+  },
+  "data_manifest_sha256": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+  "runtime_identity_sha256": "4397efda765c9ad59092cec6f45ba77c764aa6848b4c4a0bc42c5260a61c5eb9",
+  "selected_inputs": {
+    "diagnostics/counts_api/17": {
+      "bundle/bundle.json": "34bd8af3eabe671b1f295306cf23fa8351aea75de29deb88ff667353cc18ae47",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "1ad8a4833ba8e77b857499d2bd233f85537fe01d07097a54c70477bc162c7727",
+      "result.json": "5eebdd94b2796e7d4f313de1910c19ffebb71da0c5157e18650e96e6ed2ff2c3"
+    },
+    "diagnostics/counts_api_component/17": {
+      "bundle/bundle.json": "2f9aaf090ad26b84d964c0c8e7d63b6f8ffde633374e812a9615ce09451d6414",
+      "bundle/vocabulary.json": "71faf0ab041a18c4605b768752e221d93e6a52ca95a0c17acca94aaa3812115b",
+      "bundle/weights.pt": "6a30a13195ea02649d56ab7fb19adabd4a0ae420d8d8938c61696c59cb1d8a4e",
+      "result.json": "50a21efe405631b74b6ac78e990ce9ca7e3c5339753ef85c590f92cc79f6e3f5"
+    },
+    "diagnostics/counts_missingness/17": {
+      "bundle/bundle.json": "1622639b4d6b3bce3914ed8e9a7903d3221af15b47dc2c3d6e97cd786f0b232a",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "e5ec3291bc7cf356bb224c0a785af583339ac4b0e84954df01fe6f435c47ab2e",
+      "result.json": "a164a014ca4bcfe43d7ec4f30ca2afae5e1ec3d7e6b154ed94c6ac2385566448"
+    },
+    "primary/cnn/17": {
+      "bundle/bundle.json": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "8e5fe7c22fe63b3edc25cf939d79d6f23d8ad984f3a20d31dd268cf1636c7f98",
+      "result.json": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b"
+    },
+    "primary/counts/17": {
+      "bundle/bundle.json": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "8e37c7556f21eb4d52b82a1f73199b8903cc2ad3c3a3b61389e02bc054f8d990",
+      "result.json": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7"
+    },
+    "primary/gru/17": {
+      "bundle/bundle.json": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "53b0faf41b6b349629bfd476ba7847f57d5e7c7c9817d3a98afb0eab77497b20",
+      "result.json": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0"
+    },
+    "stability/cnn/29": {
+      "bundle/bundle.json": "e32912e00235f457900f0cce345042ba0dbc36cfa295f293a453fc2a39194a95",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "d8e24b817c0750350374d81dc6cd2b21f9519c6624502206a84c67f2fea07df2",
+      "result.json": "7cbed967da20a859b86ece4812f8a0ea84a745ad65f85c9df3194a25bdf8e3a8"
+    },
+    "stability/cnn/43": {
+      "bundle/bundle.json": "05d08b148f42015e2b2a2bffdb0feb33c498e56b72fb4cc5308cdd1635310dcd",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "06d06053d569bb7e97855c6657c7caddbcdb4560b6a372afba775bc62f7101c5",
+      "result.json": "a83bab1513db6717dc774e98c45ae7db268b0f7bf06e371e4e20e86182aadbd7"
+    },
+    "stability/counts/29": {
+      "bundle/bundle.json": "232152c2fca226672c54fc85b77ac547cf0a3f3e0b999bb84ac6f25afcd561ec",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "58a46c8d6f01b342761814d7b66fb97c86f0eb238b413a2e27b78da7559d2f93",
+      "result.json": "021d2eee27b5e3c38b88121e19c8d4c672dce899e7719f594502834746ae302a"
+    },
+    "stability/counts/43": {
+      "bundle/bundle.json": "5732ff429dc49ee540b10155887bb26dc5ebc27d7d054c83dfa7109ad69eb0e0",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "44b938a62d097ddd48794f1068c999aa72ee8223ce93c0752a2bc77a2ef6961b",
+      "result.json": "f20aa47e6290f920fe344a9d6fed1373e8f315a0e0a8a8880d7ccef816e8d76d"
+    },
+    "stability/gru/29": {
+      "bundle/bundle.json": "9cb8f4ebdfb182d3d27a1a6a5b355bf77697892cb1c2297fa3247bc8d5894b45",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "4570b005a73a225bf47f9e624d59471c8c215b5e746cf871bfeecb131ceef5f9",
+      "result.json": "7b8d8797a72a828e90c53fe1663901ac8d89d6acdcc64a2ac4b66ede98d74342"
+    },
+    "stability/gru/43": {
+      "bundle/bundle.json": "5b23282e3b8e1d48af0819e34c0f6fb761b387913568da471a0766dbe9a9fd14",
+      "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+      "bundle/weights.pt": "c65fa54bbdecdbefcf8babcaa6e8598426c1fb30d4ebd4bdfa0189994145c9fe",
+      "result.json": "d0576c4c990b1c49c13440946d0b907c625f5145bf92483c2f9fcb35fb38379e"
+    }
+  }
+}

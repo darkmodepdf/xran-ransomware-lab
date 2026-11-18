@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>RanEval · XRan evaluation</title>
+  <link rel="stylesheet" href="/styles.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <header class="topbar"><div class="topbar-inner">
+    <a class="brand" href="/">RanEval <span>XRan evaluation</span></a>
+    <span class="runtime" id="runtime">Read-only evaluation</span>
+  </div></header>
+  <main>
+    <div class="intro">
+      <div><p class="eyebrow">Windows behavioral features · 500 API / 10 DLL / 10 mutex</p>
+        <h1>Endpoint model evaluation</h1>
+        <p>Compare frozen models on unique released feature vectors from the XRan dataset.</p>
+      </div>
+      <button type="button" id="refresh" class="secondary">Reload export</button>
+    </div>
+
+    <div class="status" id="status" data-state="loading" role="status" aria-live="polite">
+      <span class="status-dot" aria-hidden="true"></span>
+      <div><strong id="state">Reading evaluation</strong><span id="state-detail">Checking for a completed export.</span></div>
+    </div>
+
+    <section id="empty-state" class="panel empty-state" hidden aria-labelledby="empty-title">
+      <p class="eyebrow">Evaluation pending</p><h2 id="empty-title">No measured results available</h2>
+      <p id="empty-message">A completed XRan evaluation export is required before model comparison is available.</p>
+      <div class="pending-models"><span>Count baseline</span><span>CNN</span><span>GRU</span></div>
+      <p class="subdued">Metrics appear only after training, calibration, and evaluation have produced a valid export.</p>
+    </section>
+
+    <div id="results" hidden>
+      <section class="cohort-strip" aria-label="Evaluation cohort">
+        <dl><div><dt>Released rows</dt><dd id="raw-rows">Unavailable</dd></div>
+          <div><dt>Eligible unique groups</dt><dd id="cohort-groups">Unavailable</dd></div>
+          <div><dt>Held-out test groups</dt><dd id="test-groups">Unavailable</dd></div>
+          <div><dt>Nominal calibration FPR budget</dt><dd id="nominal-budget">Unavailable</dd></div></dl>
+        <p id="cohort-note"></p>
+      </section>
+
+      <section class="panel comparison" aria-labelledby="comparison-heading">
+        <div class="panel-title"><div><h2 id="comparison-heading">Matched model comparison</h2>
+          <p class="panel-description">Ransomware is the positive class. Every row uses the same held-out group cohort.</p></div>
+          <a id="export-link" href="/api/xran/evaluation" download="xran-evaluation.json">Download evaluation JSON</a></div>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable model metrics">
+          <table id="comparison-table"><caption class="sr-only">Held-out endpoint metrics for each evaluated model</caption>
+            <thead><tr><th scope="col">Model</th><th scope="col">Accuracy</th><th scope="col">Precision</th><th scope="col">Recall</th><th scope="col">F1</th><th scope="col">Specificity</th><th scope="col">FPR</th><th scope="col">MCC</th><th scope="col">ROC-AUC</th><th scope="col">AP</th></tr></thead>
+            <tbody id="comparison-body"></tbody>
+          </table>
+        </div>
+        <p class="table-note">AP means average precision. Unavailable metrics have undefined denominators or were not exported; hover their cells for details.</p>
+      </section>
+
+      <div class="model-heading"><div><p class="eyebrow">Inspect a model</p><h2 id="selected-title">Confusion and operating point</h2></div>
+        <label class="model-control">Evaluated model<select id="model-select" aria-controls="model-detail"></select></label></div>
+      <div id="model-detail" class="detail-grid">
+        <section class="panel" aria-labelledby="confusion-heading">
+          <div class="panel-title"><h3 id="confusion-heading">Held-out confusion matrix</h3><span id="selected-support" class="subdued"></span></div>
+          <table class="matrix"><caption>Rows: actual label · Columns: model decision</caption>
+            <thead><tr><td></td><th scope="col">Ransomware</th><th scope="col">Benign</th></tr></thead>
+            <tbody><tr><th scope="row">Ransomware</th><td class="correct"><span>True positive</span><strong id="tp">—</strong></td><td class="mistake"><span>False negative</span><strong id="fn">—</strong></td></tr>
+              <tr><th scope="row">Benign</th><td class="mistake"><span>False positive</span><strong id="fp">—</strong></td><td class="correct"><span>True negative</span><strong id="tn">—</strong></td></tr></tbody>
+          </table>
+          <dl class="minor-metrics"><div><dt>False-negative rate</dt><dd id="fnr">Unavailable</dd></div><div><dt>Balanced accuracy</dt><dd id="balanced-accuracy">Unavailable</dd></div></dl>
+          <details><summary>Class report and uncertainty</summary><div id="class-evidence" class="evidence"></div></details>
+        </section>
+
+        <section class="panel" aria-labelledby="operating-heading"><h3 id="operating-heading">Frozen operating point</h3>
+          <dl class="operating-point"><div><dt>Decision cutoff · score ≥ threshold</dt><dd id="threshold">Unavailable</dd></div>
+            <div><dt>Calibration false positives</dt><dd id="calibration-rate">Unavailable</dd></div>
+            <div><dt>Observed test false-positive rate</dt><dd id="observed-fpr">Unavailable</dd></div></dl>
+          <p class="note">The budget applies to benign calibration groups. Test FPR is measured separately and may exceed it.</p>
+          <details><summary>Calibration and model provenance</summary><div id="calibration-evidence" class="evidence"></div></details>
+        </section>
+      </div>
+
+      <section class="panel sources" aria-labelledby="sources-heading"><h2 id="sources-heading">Results by source</h2>
+        <p class="panel-description">A source may contain only one class. Undefined rates stay unavailable. Cross-source feature groups may appear in more than one source row.</p>
+        <div class="table-wrap" tabindex="0" role="region" aria-label="Scrollable metrics by source"><table>
+          <thead><tr><th scope="col">Source</th><th scope="col">Groups</th><th scope="col">TP</th><th scope="col">FN</th><th scope="col">TN</th><th scope="col">FP</th><th scope="col">Recall</th><th scope="col">FPR</th><th scope="col">F1</th></tr></thead><tbody id="source-body"></tbody>
+        </table></div>
+      </section>
+
+      <div class="detail-grid evidence-grid">
+        <section class="panel"><h2>Dataset and quality evidence</h2><p class="panel-description">Released rows, duplicate handling, exclusions, split identity, and source composition.</p><div id="dataset-evidence" class="evidence"></div></section>
+        <section class="panel"><h2>Diagnostics and sensitivity</h2><p class="panel-description">Additional experiments remain distinct from the primary model comparison.</p><div id="diagnostic-evidence" class="evidence"></div></section>
+      </div>
+    </div>
+
+    <section class="limitations" aria-labelledby="limits-heading"><h2 id="limits-heading">What these results can establish</h2>
+      <ul id="limitations"><li>Endpoint classification from Windows behavioral feature vectors; live protection and damage outcomes are not measured.</li></ul></section>
+    <footer><p id="provenance">Awaiting an evaluation export.</p><p>Dataset labels are retrospective evidence. Scores and associations do not prove malicious intent.</p></footer>
+  </main>
+</body>
+</html>

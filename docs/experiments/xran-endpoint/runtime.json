@@ -1,0 +1,23 @@
+{
+  "backend": "pytorch-cpu",
+  "batch_size": 1,
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "dtype": "float32",
+  "machine": "AMD64",
+  "mkldnn_enabled": true,
+  "numpy": "2.4.6",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 186 Stepping 2, GenuineIntel",
+  "python": "3.11.15",
+  "schema": "xran-runtime-v1",
+  "sigmoid": "torch.float32; lossless conversion to Python binary64",
+  "source_hashes": {
+    "evaluate_xran.py": "240618ffedbe09974df9c2faa0d28b3872c74bbfbb9b6831ba8b570cdd1898f6",
+    "xran_data.py": "165d19c319793ee56a165b77776a5a6958650b4cd416b9c48050098ffe731b04",
+    "xran_metrics.py": "30ed6fa3ef9961c5bfc7115b43f86407ea73ee51886563651c9e7ecaa396c3e3",
+    "xran_models.py": "65d0133ff277c8086a6afb39c134d3a9c60c14c10790df0725bef28a36557d43"
+  },
+  "threads": 1,
+  "torch": "2.15.0+cpu"
+}

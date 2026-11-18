@@ -1,0 +1,9 @@
+{
+  "collection.json": "146b150b9b4a6af3aaf99dbc5ad0cb24d2dcd656b5142cc412d150e9b3802692",
+  "evaluation.json": "a15afb0c67995035615392d0ffd16d161d6d79b5f4aa7bb02f6323fe8620f35c",
+  "frozen-before-test.json": "876eaf0c9cd5fbadbfc0e335b995fdc924c50078877989e84fa12d61117887b0",
+  "frozen-inference.json": "df548258fc85647f90ef8c0b65a24787dba3ebc0813346cb360ff5f591fc3076",
+  "http-verification.json": "488bb9420f517f2a98a7a9e98e050f1bfd9f8f9599ef0e2750e417fafd65ffc7",
+  "independent-verification.json": "4f61cfae34ce653398c4a68d6b0b894cdab46c6ecadc1ca79067a9ba68dea54a",
+  "manifest.json": "cdb2a5524bd9422663c718cf03686f982816dec18b416c485c82ee68d6e5ef6a"
+}

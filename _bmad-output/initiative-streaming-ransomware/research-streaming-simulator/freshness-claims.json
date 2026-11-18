@@ -1,0 +1,12 @@
+[
+  {
+    "claim": "Docker/ONNX runtime compatibility; use last checked month as rolling-doc baseline",
+    "class": "compatibility",
+    "pub_date": "2026-11"
+  },
+  {
+    "claim": "Dataset acquisition and metadata; last checked month baseline, not original publication date",
+    "class": "acquisition",
+    "pub_date": "2026-11"
+  }
+]

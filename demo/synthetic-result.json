@@ -1,0 +1,81 @@
+{
+  "score_origin": "synthetic_fixture",
+  "run_id": "synthetic-gate-fixture",
+  "seed": 42,
+  "scheduled_writes": 10,
+  "threshold": 0.7,
+  "observed_scores": [
+    0.06,
+    0.21,
+    0.38,
+    0.74,
+    0.85,
+    0.88,
+    0.91,
+    0.93,
+    0.95,
+    0.96
+  ],
+  "first_alert_observation": 4,
+  "alert_elapsed_ms": 0.059134,
+  "gate_closed_elapsed_ms": 0.059996,
+  "blocked_writes": 6,
+  "initial_sha256": {
+    "fixture-001.bin": "a8030fb666bf3b5a9cca1f70e9a08af40a1de4a25408af175848020d5da1c5c1",
+    "fixture-002.bin": "335aa2e05d4822859a95f6d6d585a2ddeaaa07da06264d3703321c3efd59b398",
+    "fixture-003.bin": "29a61a880ac178aa02a7ef7dd892255d0a52ab58e40f7df7acc7f3a0faa404c8",
+    "fixture-004.bin": "4720a129e164caf87542d93ceff89bff029fd88c1a410e30b75cf42f3a42dbe8",
+    "fixture-005.bin": "6cd36f75a98bbad4bbe5aeb7be31c18b1882fea2035bb753ec679502cc210668",
+    "fixture-006.bin": "7a787e6de9e78ca9660ae42e94319e8553aad520d3b31714082b83c4b7647b5d",
+    "fixture-007.bin": "e8e2e285804abad5c81524fda8b6b1a7a41f4cd14c071b4e9385cbc21c9aa5ba",
+    "fixture-008.bin": "32fc25a5e69ebba83d87dd1a72f00cc886d71bcffd9eef61463ced480e818260",
+    "fixture-009.bin": "7a8224a1ce62c6e6b93ef8057521749dfae2b1e4b9bd81e53507a4f00ad77850",
+    "fixture-010.bin": "27a6bd40d01eee7381fd5b469f4c7351f0b2bc2b7331c03f9aa1316c2018285f"
+  },
+  "monitor_only": {
+    "modified_files": [
+      "fixture-001.bin",
+      "fixture-002.bin",
+      "fixture-003.bin",
+      "fixture-004.bin",
+      "fixture-005.bin",
+      "fixture-006.bin",
+      "fixture-007.bin",
+      "fixture-008.bin",
+      "fixture-009.bin",
+      "fixture-010.bin"
+    ],
+    "final_sha256": {
+      "fixture-001.bin": "93a52a423ab298159b4365d38e57070720f669d6b96aa0a5163ec4c4228af7f1",
+      "fixture-002.bin": "4fe8d7107adc1d8454fcafd83b79f88200f02b6e4a3f5163e21e6727403ec888",
+      "fixture-003.bin": "a352e143f8a9015f8b2075b8c32c5716ceae1ab4de8747b8191e2c642ed4aa07",
+      "fixture-004.bin": "87af87191edc1894b9c5b66f7eedc3bdb8180c203805456bb7310c1d6c62d89b",
+      "fixture-005.bin": "db952c2222649018004a45ec320f5e9a46cedfd7f99cf3b7e76ff664dce8e2e0",
+      "fixture-006.bin": "3bc899d3aae35c741aebea960bb9d19e215f8a97cb717324e43b0dd616c18366",
+      "fixture-007.bin": "beaff5776b62ebd241a9a4ea8895bbb59b005a0c7153ffa506ce28c579a294da",
+      "fixture-008.bin": "cd70c57b7ac6153a15fb900cf7d43fde4419bc82630c7b757adac990bf20f455",
+      "fixture-009.bin": "846cca8c79e73afaf226e4aa81fad305ac00d64ff60af23fc7cdcd9cff46000e",
+      "fixture-010.bin": "8f915ab9a8fd41c708c07e361a08237d736f932ffb8628cf38760b253ff5c9a9"
+    }
+  },
+  "enforce": {
+    "modified_files": [
+      "fixture-001.bin",
+      "fixture-002.bin",
+      "fixture-003.bin",
+      "fixture-004.bin"
+    ],
+    "final_sha256": {
+      "fixture-001.bin": "93a52a423ab298159b4365d38e57070720f669d6b96aa0a5163ec4c4228af7f1",
+      "fixture-002.bin": "4fe8d7107adc1d8454fcafd83b79f88200f02b6e4a3f5163e21e6727403ec888",
+      "fixture-003.bin": "a352e143f8a9015f8b2075b8c32c5716ceae1ab4de8747b8191e2c642ed4aa07",
+      "fixture-004.bin": "87af87191edc1894b9c5b66f7eedc3bdb8180c203805456bb7310c1d6c62d89b",
+      "fixture-005.bin": "6cd36f75a98bbad4bbe5aeb7be31c18b1882fea2035bb753ec679502cc210668",
+      "fixture-006.bin": "7a787e6de9e78ca9660ae42e94319e8553aad520d3b31714082b83c4b7647b5d",
+      "fixture-007.bin": "e8e2e285804abad5c81524fda8b6b1a7a41f4cd14c071b4e9385cbc21c9aa5ba",
+      "fixture-008.bin": "32fc25a5e69ebba83d87dd1a72f00cc886d71bcffd9eef61463ced480e818260",
+      "fixture-009.bin": "7a8224a1ce62c6e6b93ef8057521749dfae2b1e4b9bd81e53507a4f00ad77850",
+      "fixture-010.bin": "27a6bd40d01eee7381fd5b469f4c7351f0b2bc2b7331c03f9aa1316c2018285f"
+    }
+  }
+}

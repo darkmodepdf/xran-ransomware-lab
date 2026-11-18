@@ -1,0 +1,1597 @@
+{
+  "version": 1,
+  "split_unit": "whole campaign and one PID incarnation",
+  "seed": 20261118,
+  "calibration_budget": 0,
+  "holdout_variants": [
+    "copy",
+    "sparse"
+  ],
+  "limitations": "Variant holdouts share worker templates and fixture generators; they are not independent malware families.",
+  "campaigns": [
+    {
+      "id": "train-benign-append-0",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-append-1",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101001,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-append-2",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-append-3",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101003,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-benign-append-4",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-append-5",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-append-6",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101006,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-append-7",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 101007,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-benign-save-0",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-benign-save-1",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102001,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-save-2",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102002,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-save-3",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102003,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-save-4",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102004,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-benign-save-5",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102005,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-save-6",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102006,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-benign-save-7",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 102007,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-rotate-0",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-rotate-1",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103001,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-rotate-2",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-rotate-3",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103003,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-rotate-4",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-rotate-5",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-benign-rotate-6",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103006,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-benign-rotate-7",
+      "role": "train",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 103007,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-truncate-0",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105000,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-truncate-1",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105001,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-destructive-truncate-2",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105002,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-destructive-truncate-3",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105003,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-truncate-4",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105004,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-truncate-5",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105005,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-truncate-6",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105006,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-destructive-truncate-7",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 105007,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-0",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-1",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106001,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-2",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-3",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106003,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-4",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-5",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106005,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-6",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106006,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "train-destructive-overwrite-7",
+      "role": "train",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 106007,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-benign-append-0",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 201000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-benign-append-1",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 201001,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-benign-append-2",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 201002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "tune-benign-append-3",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 201003,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-benign-save-0",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 202000,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "tune-benign-save-1",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 202001,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-benign-save-2",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 202002,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "tune-benign-save-3",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 202003,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "tune-benign-rotate-0",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 203000,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-benign-rotate-1",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 203001,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-benign-rotate-2",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 203002,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-benign-rotate-3",
+      "role": "tune",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 203003,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-truncate-0",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 205000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-truncate-1",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 205001,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-truncate-2",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 205002,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-truncate-3",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 205003,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-overwrite-0",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 206000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "tune-destructive-overwrite-1",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 206001,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "tune-destructive-overwrite-2",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 206002,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "tune-destructive-overwrite-3",
+      "role": "tune",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 206003,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-append-0",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-append-1",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301001,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-append-2",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-append-3",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301003,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-append-4",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301004,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-append-5",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-append-6",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301006,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-append-7",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301007,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-append-8",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301008,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-append-9",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 301009,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-save-0",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-save-1",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302001,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-save-2",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302002,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-save-3",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302003,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-save-4",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302004,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-save-5",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-save-6",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302006,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-save-7",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302007,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-save-8",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302008,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-save-9",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 302009,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-0",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-1",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303001,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-2",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-3",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303003,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-4",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-5",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-6",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303006,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-7",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303007,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-8",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303008,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "calibrate-benign-rotate-9",
+      "role": "calibrate",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 303009,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-append-0",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-append-1",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401001,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-append-2",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401002,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-append-3",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401003,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-append-4",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401004,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-append-5",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "append",
+        "seed": 401005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-save-0",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402000,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-save-1",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402001,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-save-2",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-save-3",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402003,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-save-4",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402004,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-save-5",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "save",
+        "seed": 402005,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-rotate-0",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-rotate-1",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403001,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-rotate-2",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-rotate-3",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403003,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-rotate-4",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-rotate-5",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "rotate",
+        "seed": 403005,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-copy-0",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-copy-1",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404001,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-copy-2",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-benign-copy-3",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404003,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-benign-copy-4",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404004,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-benign-copy-5",
+      "role": "test",
+      "kind": "benign",
+      "campaign": {
+        "variant": "copy",
+        "seed": 404005,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-truncate-0",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-truncate-1",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405001,
+        "cycles": 4,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-truncate-2",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-destructive-truncate-3",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405003,
+        "cycles": 4,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-destructive-truncate-4",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405004,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-truncate-5",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "truncate",
+        "seed": 405005,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-0",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406000,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-1",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406001,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.002
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-2",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406002,
+        "cycles": 3,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-3",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406003,
+        "cycles": 4,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-4",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406004,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-overwrite-5",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "overwrite",
+        "seed": 406005,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-sparse-0",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407000,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-sparse-1",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407001,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-sparse-2",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407002,
+        "cycles": 5,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-sparse-3",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407003,
+        "cycles": 3,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    },
+    {
+      "id": "test-destructive-sparse-4",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407004,
+        "cycles": 4,
+        "warmup": 0,
+        "delay": 0
+      }
+    },
+    {
+      "id": "test-destructive-sparse-5",
+      "role": "test",
+      "kind": "destructive",
+      "campaign": {
+        "variant": "sparse",
+        "seed": 407005,
+        "cycles": 5,
+        "warmup": 1,
+        "delay": 0.001
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "changed_projection_count": 0,
+  "changed_projections": [],
+  "audit_counter_changes": {},
+  "dispositions_before": {
+    "projected": 360
+  },
+  "dispositions_after": {
+    "projected": 360
+  },
+  "raw_source_hashes_unchanged": true,
+  "model_payload_sha256_before": "99bb4a5580b12b10cae17230a3311a253f5bd5ebbec8453800e5231c2abd2191",
+  "model_payload_sha256_after": "99bb4a5580b12b10cae17230a3311a253f5bd5ebbec8453800e5231c2abd2191",
+  "model_payload_identical": true,
+  "maximum_weight_delta": 0.0,
+  "bias_delta": 0.0,
+  "threshold_delta": 0.0,
+  "evaluation_identical": true,
+  "split_identical": true,
+  "test_metrics_before": {
+    "sessions": 54,
+    "benign": 27,
+    "ransomware": 27,
+    "tp": 1,
+    "fp": 0,
+    "tn": 27,
+    "fn": 26,
+    "auroc": 0.8806584362139918
+  },
+  "test_metrics_after": {
+    "sessions": 54,
+    "benign": 27,
+    "ransomware": 27,
+    "tp": 1,
+    "fp": 0,
+    "tn": 27,
+    "fn": 26,
+    "auroc": 0.8806584362139918
+  }
+}

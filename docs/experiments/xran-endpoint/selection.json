@@ -1,0 +1,676 @@
+{
+  "candidates": [
+    {
+      "best": {
+        "confusion": {
+          "fn": 11,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1034
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9683741648106904,
+          "average_precision": 0.9963707648282814,
+          "balanced_accuracy": 0.9697368421052631,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9698000850701829,
+              "precision": 0.9904430929626412,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9668069191210846,
+              "precision": 0.9451553930530164,
+              "recall": 0.9894736842105263,
+              "support": 1045
+            }
+          },
+          "f1": 0.9668069191210846,
+          "fnr": 0.010526315789473684,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.981249662439935,
+              0.9941122393962584
+            ]
+          },
+          "mcc": 0.9375340828998807,
+          "precision": 0.9451553930530164,
+          "recall": 0.9894736842105263,
+          "roc_auc": 0.9968516746411483,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.14979590475559237
+        },
+        "step": 1060,
+        "train_loss": 0.03693501377692487
+      },
+      "bundle_sha256": "d1b17cc58b570d1068b5d7fe89a92a3aeb25441f3bf4568aa339af47ae3a857b",
+      "config_id": "cnn-lr0",
+      "data_variant": "primary",
+      "elapsed_seconds": 26.39895204200002,
+      "gpu_slot": 0,
+      "id": "cnn",
+      "lr": 0.0003,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "9692c62cb45707959328aa19cdc35cb094038402f79403b369fa2b86772f92e2",
+      "run": "candidates/cnn-lr0",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 6,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1039
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.9706013363028954,
+          "average_precision": 0.9965818018343283,
+          "balanced_accuracy": 0.9721291866028707,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9718670076726342,
+              "precision": 0.9947643979057592,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9692164179104478,
+              "precision": 0.9454049135577798,
+              "recall": 0.9942583732057416,
+              "support": 1045
+            }
+          },
+          "f1": 0.9692164179104478,
+          "fnr": 0.005741626794258373,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9875302481562056,
+              0.9973659831212021
+            ]
+          },
+          "mcc": 0.942211624095417,
+          "precision": 0.9454049135577798,
+          "recall": 0.9942583732057416,
+          "roc_auc": 0.9971738437001595,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.33143398165702825
+        },
+        "step": 848,
+        "train_loss": 0.02304561689506483
+      },
+      "bundle_sha256": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+      "config_id": "cnn-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 13.229519248000088,
+      "gpu_slot": 1,
+      "id": "cnn",
+      "lr": 0.001,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b",
+      "run": "candidates/cnn-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 32,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1013
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9590200445434298,
+          "average_precision": 0.9923522110650246,
+          "balanced_accuracy": 0.9596889952153109,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9612141652613828,
+              "precision": 0.9726962457337884,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9565627950897073,
+              "precision": 0.9440820130475303,
+              "recall": 0.969377990430622,
+              "support": 1045
+            }
+          },
+          "f1": 0.9565627950897073,
+          "fnr": 0.03062200956937799,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.957091156047663,
+              0.9782265621354317
+            ]
+          },
+          "mcc": 0.9180772043945179,
+          "precision": 0.9440820130475303,
+          "recall": 0.969377990430622,
+          "roc_auc": 0.9923197767145135,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.38216537237167364
+        },
+        "step": 1060,
+        "train_loss": 0.09984776096102733
+      },
+      "bundle_sha256": "84f14c1d9f7544155fd35ff9aef87444ec96536dbb8018b8660c59e6afc31206",
+      "config_id": "counts-lr0",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.394164137999724,
+      "gpu_slot": 0,
+      "id": "counts",
+      "lr": 0.003,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "d313543349e91773ad210ccacc9a074de19702b97eaec006952a64d992e425e9",
+      "run": "candidates/counts-lr0",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 18,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1027
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9652561247216036,
+          "average_precision": 0.9940925995409816,
+          "balanced_accuracy": 0.9663875598086125,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9669211195928753,
+              "precision": 0.9844559585492227,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9634146341463414,
+              "precision": 0.9448022079116836,
+              "recall": 0.9827751196172249,
+              "support": 1045
+            }
+          },
+          "f1": 0.9634146341463414,
+          "fnr": 0.01722488038277512,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9729367750403869,
+              0.989077065578107
+            ]
+          },
+          "mcc": 0.9310149823584232,
+          "precision": 0.9448022079116836,
+          "recall": 0.9827751196172249,
+          "roc_auc": 0.9941387559808612,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.3445918262004853
+        },
+        "step": 1060,
+        "train_loss": 0.06688953497838289
+      },
+      "bundle_sha256": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+      "config_id": "counts-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.235364351000044,
+      "gpu_slot": 0,
+      "id": "counts",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7",
+      "run": "candidates/counts-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 51,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 994
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9505567928730512,
+          "average_precision": 0.9857236047270664,
+          "balanced_accuracy": 0.9505980861244019,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9535759096612296,
+              "precision": 0.9571788413098237,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9471176750833731,
+              "precision": 0.9430740037950665,
+              "recall": 0.9511961722488038,
+              "support": 1045
+            }
+          },
+          "f1": 0.9471176750833731,
+          "fnr": 0.04880382775119617,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9364000065860907,
+              0.9626872597203908
+            ]
+          },
+          "mcc": 0.9007243851837378,
+          "precision": 0.9430740037950665,
+          "recall": 0.9511961722488038,
+          "roc_auc": 0.9867256778309409,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.6707143187522889
+        },
+        "step": 1060,
+        "train_loss": 0.12006605633602886
+      },
+      "bundle_sha256": "158aaa86a533904c1534921870797fe893ca31dbcf2559bcba01665d6706f8d7",
+      "config_id": "gru-lr0",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.497979865999696,
+      "gpu_slot": 1,
+      "id": "gru",
+      "lr": 0.0003,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "3850371cba3555ac34ce0e46c8ffe6c302e0fb52d9fbd3cac84d0795d33defd7",
+      "run": "candidates/gru-lr0",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 37,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1008
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.956792873051225,
+          "average_precision": 0.9889727127266673,
+          "balanced_accuracy": 0.9572966507177033,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9591922591501894,
+              "precision": 0.9685641461342396,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9540937056318031,
+              "precision": 0.9438202247191011,
+              "recall": 0.9645933014354067,
+              "support": 1045
+            }
+          },
+          "f1": 0.9540937056318031,
+          "fnr": 0.0354066985645933,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9515787119587067,
+              0.974204676783174
+            ]
+          },
+          "mcc": 0.9134881684602288,
+          "precision": 0.9438202247191011,
+          "recall": 0.9645933014354067,
+          "roc_auc": 0.9903221690590112,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.6926506161689759
+        },
+        "step": 848,
+        "train_loss": 0.07152442346085168
+      },
+      "bundle_sha256": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+      "config_id": "gru-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.089882622999994,
+      "gpu_slot": 0,
+      "id": "gru",
+      "lr": 0.001,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0",
+      "run": "candidates/gru-lr1",
+      "seed": 17,
+      "view": "all"
+    }
+  ],
+  "primary": [
+    {
+      "best": {
+        "confusion": {
+          "fn": 6,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1039
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.9706013363028954,
+          "average_precision": 0.9965818018343283,
+          "balanced_accuracy": 0.9721291866028707,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9718670076726342,
+              "precision": 0.9947643979057592,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9692164179104478,
+              "precision": 0.9454049135577798,
+              "recall": 0.9942583732057416,
+              "support": 1045
+            }
+          },
+          "f1": 0.9692164179104478,
+          "fnr": 0.005741626794258373,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9875302481562056,
+              0.9973659831212021
+            ]
+          },
+          "mcc": 0.942211624095417,
+          "precision": 0.9454049135577798,
+          "recall": 0.9942583732057416,
+          "roc_auc": 0.9971738437001595,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.33143398165702825
+        },
+        "step": 848,
+        "train_loss": 0.02304561689506483
+      },
+      "bundle_sha256": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+      "config_id": "cnn-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 13.229519248000088,
+      "gpu_slot": 1,
+      "id": "cnn",
+      "lr": 0.001,
+      "model": "cnn",
+      "parameters": 1133889,
+      "result_sha256": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b",
+      "run": "candidates/cnn-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 18,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1027
+        },
+        "epoch": 10,
+        "metrics": {
+          "accuracy": 0.9652561247216036,
+          "average_precision": 0.9940925995409816,
+          "balanced_accuracy": 0.9663875598086125,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9669211195928753,
+              "precision": 0.9844559585492227,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9634146341463414,
+              "precision": 0.9448022079116836,
+              "recall": 0.9827751196172249,
+              "support": 1045
+            }
+          },
+          "f1": 0.9634146341463414,
+          "fnr": 0.01722488038277512,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9729367750403869,
+              0.989077065578107
+            ]
+          },
+          "mcc": 0.9310149823584232,
+          "precision": 0.9448022079116836,
+          "recall": 0.9827751196172249,
+          "roc_auc": 0.9941387559808612,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.3445918262004853
+        },
+        "step": 1060,
+        "train_loss": 0.06688953497838289
+      },
+      "bundle_sha256": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+      "config_id": "counts-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 6.235364351000044,
+      "gpu_slot": 0,
+      "id": "counts",
+      "lr": 0.01,
+      "model": "counts",
+      "parameters": 8881,
+      "result_sha256": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7",
+      "run": "candidates/counts-lr1",
+      "seed": 17,
+      "view": "all"
+    },
+    {
+      "best": {
+        "confusion": {
+          "fn": 37,
+          "fp": 60,
+          "tn": 1140,
+          "tp": 1008
+        },
+        "epoch": 8,
+        "metrics": {
+          "accuracy": 0.956792873051225,
+          "average_precision": 0.9889727127266673,
+          "balanced_accuracy": 0.9572966507177033,
+          "class_report": {
+            "healthy": {
+              "f1": 0.9591922591501894,
+              "precision": 0.9685641461342396,
+              "recall": 0.95,
+              "support": 1200
+            },
+            "ransomware": {
+              "f1": 0.9540937056318031,
+              "precision": 0.9438202247191011,
+              "recall": 0.9645933014354067,
+              "support": 1045
+            }
+          },
+          "f1": 0.9540937056318031,
+          "fnr": 0.0354066985645933,
+          "fpr": 0.05,
+          "intervals": {
+            "fpr": [
+              0.039041012521836546,
+              0.06383088802062488
+            ],
+            "method": "Wilson 95%; feature groups, not verified executable identities",
+            "recall": [
+              0.9515787119587067,
+              0.974204676783174
+            ]
+          },
+          "mcc": 0.9134881684602288,
+          "precision": 0.9438202247191011,
+          "recall": 0.9645933014354067,
+          "roc_auc": 0.9903221690590112,
+          "specificity": 0.95,
+          "undefined_reasons": {}
+        },
+        "operating_point": {
+          "actual_fpr": 0.05,
+          "alarm_enabled": true,
+          "alerts": 60,
+          "allowed": 60,
+          "n": 1200,
+          "target_rate": 0.05,
+          "threshold": 0.6926506161689759
+        },
+        "step": 848,
+        "train_loss": 0.07152442346085168
+      },
+      "bundle_sha256": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+      "config_id": "gru-lr1",
+      "data_variant": "primary",
+      "elapsed_seconds": 14.089882622999994,
+      "gpu_slot": 0,
+      "id": "gru",
+      "lr": 0.001,
+      "model": "gru",
+      "parameters": 593409,
+      "result_sha256": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0",
+      "run": "candidates/gru-lr1",
+      "seed": 17,
+      "view": "all"
+    }
+  ],
+  "protocol_sha256": "3eb08af803bb5826a7a58cd7d56d520e71950868179ef077ba9d57407cc02b63",
+  "schema": "xran-campaign-selection-v1",
+  "selection_frozen_at": "2026-11-17T16:54:53.753289+00:00",
+  "selection_inputs": "seed17 tune outcomes only; no calibration/test outcomes"
+}

@@ -1,0 +1,12 @@
+﻿Third-party material and research provenance
+============================================
+
+This repository contains project source, research records and selected model/evidence artifacts. It does not grant a blanket license to third-party papers, datasets, sample collections, software or trademarks.
+
+Original XRan processed features: the saved source audit pins sibelgulmez/XRan at 2cfebbfe45d3ed47b0204096186877e5991d6324 and records no explicit release license. Cite the authors and obtain appropriate permission before redistribution. The project does not claim to provide their original trained weights or exact paper reproduction.
+
+EN2025 reports: the saved audit records the publisher's MIT designation for Zenodo record 18218588. ebpfangel preparation records MIT and pins its upstream LICENSE object. Any acquired material remains subject to its exact source notice. CRIBA and other trace sources retain their own terms.
+
+Third-party PDFs, downloaded raw reports, archives and executable collections are excluded from the source handoff. Public accessibility does not establish redistribution permission. Generated native fixtures and project-trained models must not be described as those upstream authors' original assets.
+
+See docs/DATASETS.md and output/research source audits for detailed provenance. No new redistribution license for third-party assets is created by this notice.

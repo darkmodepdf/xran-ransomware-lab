@@ -1,0 +1,4717 @@
+{
+  "test": {
+    "tp": 24,
+    "fn": 0,
+    "fp": 2,
+    "tn": 30,
+    "per_variant": {
+      "append": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 7
+      },
+      "save": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 8
+      },
+      "rotate": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 1,
+        "tn": 7
+      },
+      "copy": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 8
+      },
+      "truncate": {
+        "tp": 8,
+        "fn": 0,
+        "fp": 0,
+        "tn": 0
+      },
+      "overwrite": {
+        "tp": 8,
+        "fn": 0,
+        "fp": 0,
+        "tn": 0
+      },
+      "sparse": {
+        "tp": 8,
+        "fn": 0,
+        "fp": 0,
+        "tn": 0
+      }
+    },
+    "sessions": [
+      {
+        "id": "test-benign-append-mixed-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": 31,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.7578980766120864,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-benign-append-mixed-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.2778532177454893,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-append-compact-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-benign-append-compact-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-benign-append-repetitive-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-append-repetitive-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-append-structured-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-append-structured-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-benign-save-mixed-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.46809471945614706,
+        "pre_onset_alert": false,
+        "events": 158
+      },
+      {
+        "id": "test-benign-save-mixed-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.48371971945614706,
+        "pre_onset_alert": false,
+        "events": 131
+      },
+      {
+        "id": "test-benign-save-compact-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-benign-save-compact-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-benign-save-repetitive-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.3604730008969285,
+        "pre_onset_alert": false,
+        "events": 162
+      },
+      {
+        "id": "test-benign-save-repetitive-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 131
+      },
+      {
+        "id": "test-benign-save-structured-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.32295010712403477,
+        "pre_onset_alert": false,
+        "events": 187
+      },
+      {
+        "id": "test-benign-save-structured-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.32295010712403477,
+        "pre_onset_alert": false,
+        "events": 187
+      },
+      {
+        "id": "test-benign-rotate-mixed-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": 208,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.7463131239218228,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "test-benign-rotate-mixed-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6705047109818927,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "test-benign-rotate-compact-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "test-benign-rotate-compact-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 150
+      },
+      {
+        "id": "test-benign-rotate-repetitive-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-rotate-repetitive-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "test-benign-rotate-structured-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 180
+      },
+      {
+        "id": "test-benign-rotate-structured-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-copy-mixed-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-copy-mixed-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-copy-compact-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-benign-copy-compact-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-copy-repetitive-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-benign-copy-repetitive-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-copy-structured-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-benign-copy-structured-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "structured",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-destructive-truncate-mixed-0",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "mixed",
+        "onset_seq": 3,
+        "first_alert_seq": 4,
+        "qualified_alert_seq": 4,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 0.9826388888888888,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-truncate-mixed-1",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "mixed",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 174
+      },
+      {
+        "id": "test-destructive-truncate-compact-0",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "compact",
+        "onset_seq": 3,
+        "first_alert_seq": 4,
+        "qualified_alert_seq": 4,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 0.9643770342474185,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-truncate-compact-1",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "compact",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 204
+      },
+      {
+        "id": "test-destructive-truncate-repetitive-0",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "repetitive",
+        "onset_seq": 3,
+        "first_alert_seq": 4,
+        "qualified_alert_seq": 4,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "test-destructive-truncate-repetitive-1",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "repetitive",
+        "onset_seq": 27,
+        "first_alert_seq": 28,
+        "qualified_alert_seq": 28,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-destructive-truncate-structured-0",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "structured",
+        "onset_seq": 3,
+        "first_alert_seq": 4,
+        "qualified_alert_seq": 4,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 180
+      },
+      {
+        "id": "test-destructive-truncate-structured-1",
+        "kind": "destructive",
+        "variant": "truncate",
+        "profile": "structured",
+        "onset_seq": 51,
+        "first_alert_seq": 52,
+        "qualified_alert_seq": 52,
+        "events_after_onset": 1,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 1,
+        "peak_score": 0.9666363780025284,
+        "pre_onset_alert": false,
+        "events": 108
+      },
+      {
+        "id": "test-destructive-overwrite-mixed-0",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "mixed",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 0.9344222229586425,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-destructive-overwrite-mixed-1",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "mixed",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-overwrite-compact-0",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "compact",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 0.9829166666666667,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-destructive-overwrite-compact-1",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "compact",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-destructive-overwrite-repetitive-0",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "repetitive",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 0.9829166666666667,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-destructive-overwrite-repetitive-1",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "repetitive",
+        "onset_seq": 51,
+        "first_alert_seq": 51,
+        "qualified_alert_seq": 51,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-overwrite-structured-0",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "structured",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 0.8889116269519471,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-destructive-overwrite-structured-1",
+        "kind": "destructive",
+        "variant": "overwrite",
+        "profile": "structured",
+        "onset_seq": 51,
+        "first_alert_seq": 51,
+        "qualified_alert_seq": 51,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-destructive-sparse-mixed-0",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "mixed",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-sparse-mixed-1",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "mixed",
+        "onset_seq": 27,
+        "first_alert_seq": 35,
+        "qualified_alert_seq": 35,
+        "events_after_onset": 8,
+        "invalid_files_at_alert": 3,
+        "invalid_files_before_alert": 2,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "test-destructive-sparse-compact-0",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "compact",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-destructive-sparse-compact-1",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "compact",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "test-destructive-sparse-repetitive-0",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "repetitive",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-destructive-sparse-repetitive-1",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "repetitive",
+        "onset_seq": 51,
+        "first_alert_seq": 51,
+        "qualified_alert_seq": 51,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "test-destructive-sparse-structured-0",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "structured",
+        "onset_seq": 3,
+        "first_alert_seq": 3,
+        "qualified_alert_seq": 3,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "test-destructive-sparse-structured-1",
+        "kind": "destructive",
+        "variant": "sparse",
+        "profile": "structured",
+        "onset_seq": 27,
+        "first_alert_seq": 27,
+        "qualified_alert_seq": 27,
+        "events_after_onset": 0,
+        "invalid_files_at_alert": 1,
+        "invalid_files_before_alert": 0,
+        "peak_score": 1.0,
+        "pre_onset_alert": false,
+        "events": 120
+      }
+    ],
+    "cpu_seconds": 0.125,
+    "events": 8186,
+    "events_per_cpu_second": 65488.0
+  },
+  "calibration": {
+    "tp": 0,
+    "fn": 0,
+    "fp": 0,
+    "tn": 48,
+    "per_variant": {
+      "append": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 12
+      },
+      "save": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 12
+      },
+      "rotate": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 12
+      },
+      "copy": {
+        "tp": 0,
+        "fn": 0,
+        "fp": 0,
+        "tn": 12
+      }
+    },
+    "sessions": [
+      {
+        "id": "calibrate-benign-append-mixed-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.40625,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-mixed-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.28548917034192933,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-append-mixed-2",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.2332458485288015,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-mixed-3",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.2036850377179907,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-compact-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "calibrate-benign-append-compact-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-compact-2",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-append-compact-3",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-0",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-1",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-2",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0441274154589372,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-3",
+        "kind": "benign",
+        "variant": "append",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.0628774154589372,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-save-mixed-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.44778221945614705,
+        "pre_onset_alert": false,
+        "events": 135
+      },
+      {
+        "id": "calibrate-benign-save-mixed-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.32525384635581445,
+        "pre_onset_alert": false,
+        "events": 132
+      },
+      {
+        "id": "calibrate-benign-save-mixed-2",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.3629607908847185,
+        "pre_onset_alert": false,
+        "events": 157
+      },
+      {
+        "id": "calibrate-benign-save-mixed-3",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.5524904262014781,
+        "pre_onset_alert": false,
+        "events": 184
+      },
+      {
+        "id": "calibrate-benign-save-compact-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-save-compact-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-save-compact-2",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-save-compact-3",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-0",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 159
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-1",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.16969469058399855,
+        "pre_onset_alert": false,
+        "events": 104
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-2",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 107
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-3",
+        "kind": "benign",
+        "variant": "save",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.14024346684160705,
+        "pre_onset_alert": false,
+        "events": 184
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.7429040330127319,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-2",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 150
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-3",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.7423087949174938,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 150
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-2",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-3",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 180
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-0",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-1",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-2",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-3",
+        "kind": "benign",
+        "variant": "rotate",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.6129343746531247,
+        "pre_onset_alert": false,
+        "events": 210
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-2",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-3",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "mixed",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-copy-compact-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 168
+      },
+      {
+        "id": "calibrate-benign-copy-compact-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "calibrate-benign-copy-compact-2",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "calibrate-benign-copy-compact-3",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "compact",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-0",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 96
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-1",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-2",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 120
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-3",
+        "kind": "benign",
+        "variant": "copy",
+        "profile": "repetitive",
+        "onset_seq": null,
+        "first_alert_seq": null,
+        "qualified_alert_seq": null,
+        "events_after_onset": null,
+        "invalid_files_at_alert": null,
+        "invalid_files_before_alert": null,
+        "peak_score": 0.13921090799859354,
+        "pre_onset_alert": false,
+        "events": 144
+      }
+    ],
+    "cpu_seconds": 0.125,
+    "events": 7096,
+    "events_per_cpu_second": 56768.0
+  },
+  "threshold": 0.742904033012732,
+  "calibration_budget_met": true,
+  "calibration_budget_note": "Zero observed calibration alerts",
+  "inference_sha256": "107873c7bc4e24468687b45de6cf0840bb25c344c2a389933c572f7fc560ea61",
+  "parity_max_abs_error": 0.0,
+  "parity_decisions_exact": true,
+  "interleaving_exact": true,
+  "bundle_bytes": 214089,
+  "fitting_seconds": 6.71435150000616,
+  "frozen_inference_sha256": "a040ce5311e3bbf30586bf69e2b4aadff182ba0f1d0aa7fa4cc071de12e25656",
+  "final_bundle_sha256": "01b3497ca418991033fba338b301b5b823cf6ccedddecc81b82f9f9915a0e3cc",
+  "manifest": {
+    "version": 2,
+    "experiment": "v2",
+    "split_unit": "whole campaign and one PID incarnation",
+    "seed": 2026111802,
+    "calibration_budget": 0,
+    "holdout_variants": [],
+    "holdout_profiles": [
+      "structured"
+    ],
+    "model_candidates": [
+      {
+        "depth": 2,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 3,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 3,
+        "min_samples_leaf": 8
+      },
+      {
+        "depth": 4,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 5,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 5,
+        "min_samples_leaf": 8
+      },
+      {
+        "depth": 7,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 7,
+        "min_samples_leaf": 8
+      },
+      {
+        "depth": 9,
+        "min_samples_leaf": 4
+      },
+      {
+        "depth": 5,
+        "min_samples_leaf": 20
+      }
+    ],
+    "trees_per_candidate": 32,
+    "selection_policy": "Maximize onset-qualified tuning campaign recall at a cutoff immediately above the largest benign tuning session maximum; tie-break fewer false alerts, then smaller mean onset-to-alert event delay among detected tuning campaigns, then fewer tree nodes.",
+    "cutoff_policy": "After selecting one estimator, use the next representable float above the largest benign calibration session maximum. Clip at1 only at the score ceiling, explicitly reporting an unattainable zero-alert budget. Never adjust after opening test.",
+    "retired_evidence": "v1 test and HTTP default-worker failures are diagnostic development evidence, not untouched evidence for v2.",
+    "limitations": "All operation variants and three content profiles occur in development. Structured profile and fresh seeds are held out, but share worker templates and fixture grammars; no independent malware-family or production generalization claim.",
+    "campaigns": [
+      {
+        "id": "train-benign-append-mixed-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2110100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-append-mixed-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2110101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-append-mixed-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2110102,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-append-mixed-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2110103,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-append-compact-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2110200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-append-compact-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2110201,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-append-compact-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2110202,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-append-compact-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2110203,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-append-repetitive-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2110300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-append-repetitive-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2110301,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-append-repetitive-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2110302,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-append-repetitive-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2110303,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-mixed-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2120100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-save-mixed-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2120101,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-mixed-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2120102,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-mixed-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2120103,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-compact-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2120200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-compact-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2120201,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-save-compact-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2120202,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-compact-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2120203,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-save-repetitive-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2120300,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-save-repetitive-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2120301,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-save-repetitive-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2120302,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-save-repetitive-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2120303,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-rotate-mixed-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2130100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-mixed-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2130101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-mixed-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2130102,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-mixed-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2130103,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-rotate-compact-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2130200,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-rotate-compact-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2130201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-compact-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2130202,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-compact-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2130203,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-repetitive-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2130300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-rotate-repetitive-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2130301,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-rotate-repetitive-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2130302,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-rotate-repetitive-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2130303,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-copy-mixed-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2140100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-copy-mixed-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2140101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-copy-mixed-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2140102,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-copy-mixed-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2140103,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-copy-compact-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2140200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-copy-compact-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2140201,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-copy-compact-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2140202,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-copy-compact-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2140203,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-copy-repetitive-0",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2140300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-benign-copy-repetitive-1",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2140301,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-benign-copy-repetitive-2",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2140302,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-benign-copy-repetitive-3",
+        "role": "train",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2140303,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-truncate-mixed-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2150100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-truncate-mixed-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2150101,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-truncate-mixed-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2150102,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-truncate-mixed-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2150103,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-truncate-compact-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2150200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-truncate-compact-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2150201,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-truncate-compact-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2150202,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-truncate-compact-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2150203,
+          "cycles": 6,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-truncate-repetitive-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2150300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-truncate-repetitive-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2150301,
+          "cycles": 6,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-truncate-repetitive-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2150302,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-truncate-repetitive-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2150303,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-mixed-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2160100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-mixed-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2160101,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-mixed-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2160102,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-mixed-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2160103,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-compact-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2160200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-compact-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2160201,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-compact-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2160202,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-compact-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2160203,
+          "cycles": 5,
+          "warmup": 2,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-repetitive-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2160300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-repetitive-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2160301,
+          "cycles": 5,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-repetitive-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2160302,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-overwrite-repetitive-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2160303,
+          "cycles": 5,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-sparse-mixed-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2170100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-mixed-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2170101,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-sparse-mixed-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2170102,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-mixed-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2170103,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-compact-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2170200,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-compact-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2170201,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-sparse-compact-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2170202,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-sparse-compact-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2170203,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "train-destructive-sparse-repetitive-0",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2170300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-repetitive-1",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2170301,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "train-destructive-sparse-repetitive-2",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2170302,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "train-destructive-sparse-repetitive-3",
+        "role": "train",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2170303,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-append-mixed-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2210100,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-append-mixed-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2210101,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-append-compact-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2210200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-append-compact-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2210201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-append-repetitive-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2210300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-append-repetitive-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2210301,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-save-mixed-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2220100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-save-mixed-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2220101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-save-compact-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2220200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-save-compact-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2220201,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-save-repetitive-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2220300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-save-repetitive-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2220301,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-rotate-mixed-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2230100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-rotate-mixed-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2230101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-rotate-compact-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2230200,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-rotate-compact-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2230201,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-rotate-repetitive-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2230300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-rotate-repetitive-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2230301,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-copy-mixed-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2240100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-copy-mixed-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2240101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-benign-copy-compact-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2240200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-copy-compact-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2240201,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-benign-copy-repetitive-0",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2240300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-benign-copy-repetitive-1",
+        "role": "tune",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2240301,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-mixed-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2250100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-mixed-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2250101,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-compact-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2250200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-compact-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2250201,
+          "cycles": 4,
+          "warmup": 2,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-repetitive-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2250300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-truncate-repetitive-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2250301,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-mixed-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2260100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-mixed-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2260101,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-compact-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2260200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-compact-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2260201,
+          "cycles": 7,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-repetitive-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2260300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-destructive-overwrite-repetitive-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2260301,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-mixed-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2270100,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-mixed-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2270101,
+          "cycles": 4,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-compact-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2270200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-compact-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2270201,
+          "cycles": 4,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-repetitive-0",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2270300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "tune-destructive-sparse-repetitive-1",
+        "role": "tune",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2270301,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-mixed-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2310100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-mixed-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2310101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-append-mixed-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2310102,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-append-mixed-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2310103,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-compact-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2310200,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-compact-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2310201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-append-compact-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2310202,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-append-compact-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2310203,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2310300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2310301,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2310302,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-append-repetitive-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2310303,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-mixed-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2320100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-mixed-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2320101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-save-mixed-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2320102,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-save-mixed-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2320103,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-compact-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2320200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-compact-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2320201,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-save-compact-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2320202,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-compact-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2320203,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2320300,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2320301,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2320302,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-save-repetitive-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2320303,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2330100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2330101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2330102,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-mixed-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2330103,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2330200,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2330201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2330202,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-compact-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2330203,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2330300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2330301,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2330302,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-rotate-repetitive-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2330303,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2340100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2340101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2340102,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-mixed-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2340103,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-compact-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2340200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-compact-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2340201,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-compact-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2340202,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-compact-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2340203,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-0",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2340300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-1",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2340301,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-2",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2340302,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "calibrate-benign-copy-repetitive-3",
+        "role": "calibrate",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2340303,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-append-mixed-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2410100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-append-mixed-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "mixed",
+          "seed": 2410101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-append-compact-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2410200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-append-compact-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "compact",
+          "seed": 2410201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-append-repetitive-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2410300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-append-repetitive-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "repetitive",
+          "seed": 2410301,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-append-structured-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "structured",
+          "seed": 2410400,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-append-structured-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "append",
+          "profile": "structured",
+          "seed": 2410401,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-save-mixed-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2420100,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-save-mixed-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "mixed",
+          "seed": 2420101,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-save-compact-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2420200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-save-compact-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "compact",
+          "seed": 2420201,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-save-repetitive-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2420300,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-save-repetitive-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "repetitive",
+          "seed": 2420301,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-save-structured-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "structured",
+          "seed": 2420400,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-save-structured-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "save",
+          "profile": "structured",
+          "seed": 2420401,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-rotate-mixed-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2430100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-rotate-mixed-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "mixed",
+          "seed": 2430101,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-rotate-compact-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2430200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-rotate-compact-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "compact",
+          "seed": 2430201,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-rotate-repetitive-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2430300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-rotate-repetitive-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "repetitive",
+          "seed": 2430301,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-rotate-structured-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "structured",
+          "seed": 2430400,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-rotate-structured-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "rotate",
+          "profile": "structured",
+          "seed": 2430401,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-copy-mixed-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2440100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-copy-mixed-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "mixed",
+          "seed": 2440101,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-copy-compact-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2440200,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-copy-compact-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "compact",
+          "seed": 2440201,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-copy-repetitive-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2440300,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-benign-copy-repetitive-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "repetitive",
+          "seed": 2440301,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-benign-copy-structured-0",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "structured",
+          "seed": 2440400,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-benign-copy-structured-1",
+        "role": "test",
+        "kind": "benign",
+        "campaign": {
+          "variant": "copy",
+          "profile": "structured",
+          "seed": 2440401,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-truncate-mixed-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2450100,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-truncate-mixed-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "mixed",
+          "seed": 2450101,
+          "cycles": 6,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-truncate-compact-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2450200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-truncate-compact-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "compact",
+          "seed": 2450201,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-truncate-repetitive-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2450300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-truncate-repetitive-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "repetitive",
+          "seed": 2450301,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-truncate-structured-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "structured",
+          "seed": 2450400,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-truncate-structured-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "truncate",
+          "profile": "structured",
+          "seed": 2450401,
+          "cycles": 4,
+          "warmup": 2,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-mixed-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2460100,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-mixed-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "mixed",
+          "seed": 2460101,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-compact-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2460200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-compact-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "compact",
+          "seed": 2460201,
+          "cycles": 4,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-repetitive-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2460300,
+          "cycles": 7,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-repetitive-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "repetitive",
+          "seed": 2460301,
+          "cycles": 5,
+          "warmup": 2,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-structured-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "structured",
+          "seed": 2460400,
+          "cycles": 6,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-overwrite-structured-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "overwrite",
+          "profile": "structured",
+          "seed": 2460401,
+          "cycles": 6,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-sparse-mixed-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2470100,
+          "cycles": 5,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-sparse-mixed-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "mixed",
+          "seed": 2470101,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-sparse-compact-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2470200,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-sparse-compact-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "compact",
+          "seed": 2470201,
+          "cycles": 7,
+          "warmup": 1,
+          "delay": 0.001
+        }
+      },
+      {
+        "id": "test-destructive-sparse-repetitive-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2470300,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-sparse-repetitive-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "repetitive",
+          "seed": 2470301,
+          "cycles": 6,
+          "warmup": 2,
+          "delay": 0
+        }
+      },
+      {
+        "id": "test-destructive-sparse-structured-0",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "structured",
+          "seed": 2470400,
+          "cycles": 4,
+          "warmup": 0,
+          "delay": 0.002
+        }
+      },
+      {
+        "id": "test-destructive-sparse-structured-1",
+        "role": "test",
+        "kind": "destructive",
+        "campaign": {
+          "variant": "sparse",
+          "profile": "structured",
+          "seed": 2470401,
+          "cycles": 5,
+          "warmup": 1,
+          "delay": 0.002
+        }
+      }
+    ]
+  },
+  "limitations": "Harmless native fixture behavior only. Benign whole-file saves and destructive operations can be observationally indistinguishable. No real-world ransomware coverage claim.",
+  "heldout_variant_limit": "All operation variants and three content profiles occur in development. Structured profile and fresh seeds are held out, but share worker templates and fixture grammars; no independent malware-family or production generalization claim."
+}

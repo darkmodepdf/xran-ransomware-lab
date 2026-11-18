@@ -1,0 +1,10 @@
+*
+!demo/
+!demo/runner.py
+!demo/model_adapter.py
+!demo/Dockerfile.model
+!src/
+!src/raneval/
+!src/raneval/*.py
+**/__pycache__
+**/*.pyc

@@ -1,0 +1,15 @@
+**
+!src/
+!src/raneval/
+!src/raneval/__init__.py
+!src/raneval/windows_stream.py
+!src/raneval/windows_events.py
+!src/raneval/windows_native.py
+!src/raneval/windows_native_v1.py
+!demo/
+!demo/windows_streaming/
+!demo/windows_streaming/server.py
+!demo/windows_streaming/model.json
+!demo/windows_streaming/native-model.json
+!demo/windows_streaming/static/
+!demo/windows_streaming/static/**

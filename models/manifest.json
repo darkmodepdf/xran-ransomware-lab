@@ -1,0 +1,79 @@
+{
+  "schema": "xran-selected-model-registry-v1",
+  "endpoint": [
+    {
+      "id": "cnn",
+      "path": "models/xran-endpoint/cnn",
+      "source_run": "candidates/cnn-lr1",
+      "seed": 17,
+      "files": {
+        "bundle.json": {
+          "bytes": 4845,
+          "sha256": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec"
+        },
+        "operating-point.json": {
+          "bytes": 1006,
+          "sha256": "1d0e7c8f7c4e16c214832c1a0e02b4056545701b3ec905066cfff8a8b7f7371b"
+        },
+        "vocabulary.json": {
+          "bytes": 610488,
+          "sha256": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de"
+        },
+        "weights.pt": {
+          "bytes": 4538761,
+          "sha256": "8e5fe7c22fe63b3edc25cf939d79d6f23d8ad984f3a20d31dd268cf1636c7f98"
+        }
+      }
+    },
+    {
+      "id": "counts",
+      "path": "models/xran-endpoint/counts",
+      "source_run": "candidates/counts-lr1",
+      "seed": 17,
+      "files": {
+        "bundle.json": {
+          "bytes": 4859,
+          "sha256": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3"
+        },
+        "operating-point.json": {
+          "bytes": 1009,
+          "sha256": "e604804901657689f74ae6a834bf634ad261e39f6ab5ea9b241a5ea918623917"
+        },
+        "vocabulary.json": {
+          "bytes": 610488,
+          "sha256": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de"
+        },
+        "weights.pt": {
+          "bytes": 37285,
+          "sha256": "8e37c7556f21eb4d52b82a1f73199b8903cc2ad3c3a3b61389e02bc054f8d990"
+        }
+      }
+    },
+    {
+      "id": "gru",
+      "path": "models/xran-endpoint/gru",
+      "source_run": "candidates/gru-lr1",
+      "seed": 17,
+      "files": {
+        "bundle.json": {
+          "bytes": 4842,
+          "sha256": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254"
+        },
+        "operating-point.json": {
+          "bytes": 1005,
+          "sha256": "64b6bcbe96eb5afb472766c0173217ab9d76fcc728095182b608b0ced41d3472"
+        },
+        "vocabulary.json": {
+          "bytes": 610488,
+          "sha256": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de"
+        },
+        "weights.pt": {
+          "bytes": 2376465,
+          "sha256": "53b0faf41b6b349629bfd476ba7847f57d5e7c7c9817d3a98afb0eab77497b20"
+        }
+      }
+    }
+  ],
+  "native_model": "demo/windows_streaming/native-model.json",
+  "native_payload_sha256": "01b3497ca418991033fba338b301b5b823cf6ccedddecc81b82f9f9915a0e3cc"
+}

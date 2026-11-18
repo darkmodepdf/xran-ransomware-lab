@@ -1,0 +1,151 @@
+{
+  "all_independent_rescores_exact": true,
+  "artifacts": {
+    "diagnostics-counts_api-seed17-calibration.jsonl": "0f9f13a132b0f97469fcfadece63a69a3fa7af30c1fb1ee0f5b9aa2d23312590",
+    "diagnostics-counts_api-seed17-operating-point.json": "98c684f1ee4ff5b0fc296ab6ffca9e82415a0c638379de356e58312bd00d12c5",
+    "diagnostics-counts_api-seed17-test.jsonl": "2a392eb5aa30775cd0f2f7f70cdeb8c6b15bfcf2058023d14dba724aa5b5f3b8",
+    "diagnostics-counts_api_component-seed17-calibration.jsonl": "75fc08b1e4e5c6ab0214e0d3ba4fb6a6a130ceab53cbffaf138e50d999d384a6",
+    "diagnostics-counts_api_component-seed17-operating-point.json": "50b857482fdc712fd9f265b860bf219fac06b291dd16316a3dbfc72e4f61f9ff",
+    "diagnostics-counts_api_component-seed17-test.jsonl": "7f01b9ba4897091823855a4d91eaf44e093defe9501427bb0f84140e23bfd592",
+    "diagnostics-counts_missingness-seed17-calibration.jsonl": "bff308cd84b98c9cc43c3f6f4c019f15484f12677da38ab675be4a08c4975466",
+    "diagnostics-counts_missingness-seed17-operating-point.json": "9f7cd3b57db8bfbe59e49a5924529d7e064e7145f8cc9e7833c94fb10347402f",
+    "diagnostics-counts_missingness-seed17-test.jsonl": "c9e6824d481e7a12f29852408886dd64a0b76a3fd34a5e04d0049755d346cd1d",
+    "evaluation-lock.json": "156a531d9e208241df8fff8258a8c0bef7463a75328d19c1240c74882efc0480",
+    "evaluation.json": "1a5008fc030faee97400f43d0c9eed8ca03351a72a4628221095fe41b4225c86",
+    "primary-cnn-seed17-calibration.jsonl": "e6111fb3467dca41143af091ce9ea149c365f0f668475d860a48529245f4d8b2",
+    "primary-cnn-seed17-operating-point.json": "1d0e7c8f7c4e16c214832c1a0e02b4056545701b3ec905066cfff8a8b7f7371b",
+    "primary-cnn-seed17-test.jsonl": "bcaa2a9151ffc1986cf01c2772ea3b771ddfe82689bf9fa66f8648d94a9f70ff",
+    "primary-counts-seed17-calibration.jsonl": "9c3fad558a4029b85ff6a03261e34e47f85a08ae0eba1b4f6ecc724de20f09ea",
+    "primary-counts-seed17-operating-point.json": "e604804901657689f74ae6a834bf634ad261e39f6ab5ea9b241a5ea918623917",
+    "primary-counts-seed17-test.jsonl": "091278ae18bc6288ad114a697bfe4acc21db97ebf30db736e39a05e123618ca5",
+    "primary-gru-seed17-calibration.jsonl": "cd791d08ed90857ee728a98a2b1dcf8b2e319967693232ecd886b0ea26b5bd9d",
+    "primary-gru-seed17-operating-point.json": "64b6bcbe96eb5afb472766c0173217ab9d76fcc728095182b608b0ced41d3472",
+    "primary-gru-seed17-test.jsonl": "65d34b07a58e6b02fd1b1ee8650990785d4ebc40388b4d0051c00c3559f2626e",
+    "runtime.json": "03e6489d1b643d51619c0ee82dc5a17e7fdd0862255e5285ad621d0e446da725",
+    "stability-cnn-seed29-calibration.jsonl": "701f150093c74f50810116e640f16a02378555393ca28958d3bade393288da1c",
+    "stability-cnn-seed29-operating-point.json": "f9b7c5c82f4ccc89f973788b3a518636128470f7694cd9ef54edf27892505c50",
+    "stability-cnn-seed29-test.jsonl": "23a51dbf2b1a17e6a1fabfc2fb32eb2e9d5f970663d1b969eb54a678ef7775d5",
+    "stability-cnn-seed43-calibration.jsonl": "69d0736b485bc6920981e9baa97663afbaa9fcaeb04c5c21bf734cef7bfbbc54",
+    "stability-cnn-seed43-operating-point.json": "c8f5c85939e707e75d04ad0b6c5ecd4c58cb44e4a71e7eede6a42f463e52cbbe",
+    "stability-cnn-seed43-test.jsonl": "dcb58ecf4602bd5be1933e59b693b96a902b47b61e3cc7a0084a2c3e5e6509a2",
+    "stability-counts-seed29-calibration.jsonl": "ebc8a2ecfa029dd60093077b6f7aa4c110d36d5b3c9389afc8f646f6b337c704",
+    "stability-counts-seed29-operating-point.json": "e1b1d7404029fe4304366c923c04059e89008e26ece75a60f4154d05b1433f86",
+    "stability-counts-seed29-test.jsonl": "09985f1bf481d06221a6e4e55238b3f5cdfcc0c5be1ed4a27199d1d182775a67",
+    "stability-counts-seed43-calibration.jsonl": "79256abbdc2a2649fcdea1b2d202a4156950419ab64ac766424c223e4d829b7d",
+    "stability-counts-seed43-operating-point.json": "2b32e1014983ac0035a0dadc760cf2d0324118190c1ca7210e3815c919d395de",
+    "stability-counts-seed43-test.jsonl": "2f4e6b2d5eca913b6c92d38e6b37a080617e58d3b83245f2e84e1a465066d361",
+    "stability-gru-seed29-calibration.jsonl": "0fffe4a1e3bcf1c843e4864aec79b2c80872304e1eeddcabf435e94d0731db58",
+    "stability-gru-seed29-operating-point.json": "706a07bef63c3873f3a705fc4a7e516c2e188b600827f6f61aead49720feb9c1",
+    "stability-gru-seed29-test.jsonl": "2c63b42203828cbc7e34b17e3f8a0e9edd25ea78210d8f4f42e32cb3a3df46a7",
+    "stability-gru-seed43-calibration.jsonl": "c94fe695dbf3af78681f5606acb5732493859e1bb8e27b46d7f0c3ee31b05f14",
+    "stability-gru-seed43-operating-point.json": "9b8a1d8dbd48a43a9bb170f2c373c1ae2d050d29577fa9315d85404985704198",
+    "stability-gru-seed43-test.jsonl": "0cf112862c13aa6b793411e396c49a46726d12aed43734ea4295bd61384d64cb"
+  },
+  "campaign_verification": {
+    "all_campaign_file_hashes_verified": true,
+    "files_verified": 137,
+    "protocol_binding": "Exact JSON bytes, allowing only LF/CRLF newline conversion",
+    "protocol_semantic_sha256": "bcbb0bb144c24e9fdf20f7ba0e1d06a7db4ce947ebbc6072e235c705bc316b50",
+    "protocol_sha256": "1a0bda84be8c5fa9d2e5a24727f0dbe06c478df197e4dba31863650a705342ec",
+    "selected_run_hashes_verified": true,
+    "selection_sha256": "e65c172478ed1ea8779b25945c9d59fe77e0d760b5dbca1c1aecea37b34368e4",
+    "source_protocol_line_endings": "CRLF",
+    "source_protocol_sha256": "3eb08af803bb5826a7a58cd7d56d520e71950868179ef077ba9d57407cc02b63",
+    "tune_selection_reproduced": true
+  },
+  "identity": {
+    "campaign_sha256": "56db4e4956e8c3f9427a735d586317e20889a72c4ae0b28884f2bb5f1faf67fe",
+    "data_inputs": {
+      "api-component": {
+        "encoded.npz": "fb12f0eed3a2c56ee20d7b83c048a27359d211578e03d15928cfefc44766c1a1",
+        "groups.jsonl": "92eb53c1cf2e8e0a1d6874875b31bf281bb7969aa27153ce7da684c069659657",
+        "manifest.json": "ddb6b3b4c41272961fa200a50deb3256ef366480b0905b24c7ac4d2444ce2280",
+        "vocabulary.json": "973da26442211ad46e33612a9108693db0c466169c36094025b87ffab1572572"
+      },
+      "primary": {
+        "encoded.npz": "8a06fcec378ad34fb58f20eb980fe7a3f07b2b39844c3ab49ff06057b4705ea8",
+        "groups.jsonl": "123e42c313ca5e961ae467442acb8853795afb7c0da3ad5eb06a7e031219d081",
+        "manifest.json": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+        "vocabulary.json": "1586f52ef87e6f8e38c84ae2ee3763688455a0baeda57ecfadd06ad61db7be50"
+      }
+    },
+    "data_manifest_sha256": "19a22074aac7278a85118621eb9c3f88d6a4495b6217548b3797b0919305f920",
+    "runtime_identity_sha256": "4397efda765c9ad59092cec6f45ba77c764aa6848b4c4a0bc42c5260a61c5eb9",
+    "selected_inputs": {
+      "diagnostics/counts_api/17": {
+        "bundle/bundle.json": "34bd8af3eabe671b1f295306cf23fa8351aea75de29deb88ff667353cc18ae47",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "1ad8a4833ba8e77b857499d2bd233f85537fe01d07097a54c70477bc162c7727",
+        "result.json": "5eebdd94b2796e7d4f313de1910c19ffebb71da0c5157e18650e96e6ed2ff2c3"
+      },
+      "diagnostics/counts_api_component/17": {
+        "bundle/bundle.json": "2f9aaf090ad26b84d964c0c8e7d63b6f8ffde633374e812a9615ce09451d6414",
+        "bundle/vocabulary.json": "71faf0ab041a18c4605b768752e221d93e6a52ca95a0c17acca94aaa3812115b",
+        "bundle/weights.pt": "6a30a13195ea02649d56ab7fb19adabd4a0ae420d8d8938c61696c59cb1d8a4e",
+        "result.json": "50a21efe405631b74b6ac78e990ce9ca7e3c5339753ef85c590f92cc79f6e3f5"
+      },
+      "diagnostics/counts_missingness/17": {
+        "bundle/bundle.json": "1622639b4d6b3bce3914ed8e9a7903d3221af15b47dc2c3d6e97cd786f0b232a",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "e5ec3291bc7cf356bb224c0a785af583339ac4b0e84954df01fe6f435c47ab2e",
+        "result.json": "a164a014ca4bcfe43d7ec4f30ca2afae5e1ec3d7e6b154ed94c6ac2385566448"
+      },
+      "primary/cnn/17": {
+        "bundle/bundle.json": "df9fac1ee030ab52c53963ef05e08eef6dad9a87b5bdc475f6b80314595dceec",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "8e5fe7c22fe63b3edc25cf939d79d6f23d8ad984f3a20d31dd268cf1636c7f98",
+        "result.json": "e51e68035136b2a5134fcfcbccecec246e9bc48340f6a362d225bae9fb9b0d7b"
+      },
+      "primary/counts/17": {
+        "bundle/bundle.json": "c9c918d55e03bc646334b559062219c705180d9fc36932a7b2cff7d9db1474a3",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "8e37c7556f21eb4d52b82a1f73199b8903cc2ad3c3a3b61389e02bc054f8d990",
+        "result.json": "27aca27a7775757bdd88d2511803caf8fa11ee1ce48e094532eb9a16376b42f7"
+      },
+      "primary/gru/17": {
+        "bundle/bundle.json": "a2e7570653adba37e49edd3887fd0d60d42f4e4f424511692527c4eb6fedb254",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "53b0faf41b6b349629bfd476ba7847f57d5e7c7c9817d3a98afb0eab77497b20",
+        "result.json": "bca32d30111779e5aa9eda1437807a62d3171d47539866b0e992059f16bf2ad0"
+      },
+      "stability/cnn/29": {
+        "bundle/bundle.json": "e32912e00235f457900f0cce345042ba0dbc36cfa295f293a453fc2a39194a95",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "d8e24b817c0750350374d81dc6cd2b21f9519c6624502206a84c67f2fea07df2",
+        "result.json": "7cbed967da20a859b86ece4812f8a0ea84a745ad65f85c9df3194a25bdf8e3a8"
+      },
+      "stability/cnn/43": {
+        "bundle/bundle.json": "05d08b148f42015e2b2a2bffdb0feb33c498e56b72fb4cc5308cdd1635310dcd",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "06d06053d569bb7e97855c6657c7caddbcdb4560b6a372afba775bc62f7101c5",
+        "result.json": "a83bab1513db6717dc774e98c45ae7db268b0f7bf06e371e4e20e86182aadbd7"
+      },
+      "stability/counts/29": {
+        "bundle/bundle.json": "232152c2fca226672c54fc85b77ac547cf0a3f3e0b999bb84ac6f25afcd561ec",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "58a46c8d6f01b342761814d7b66fb97c86f0eb238b413a2e27b78da7559d2f93",
+        "result.json": "021d2eee27b5e3c38b88121e19c8d4c672dce899e7719f594502834746ae302a"
+      },
+      "stability/counts/43": {
+        "bundle/bundle.json": "5732ff429dc49ee540b10155887bb26dc5ebc27d7d054c83dfa7109ad69eb0e0",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "44b938a62d097ddd48794f1068c999aa72ee8223ce93c0752a2bc77a2ef6961b",
+        "result.json": "f20aa47e6290f920fe344a9d6fed1373e8f315a0e0a8a8880d7ccef816e8d76d"
+      },
+      "stability/gru/29": {
+        "bundle/bundle.json": "9cb8f4ebdfb182d3d27a1a6a5b355bf77697892cb1c2297fa3247bc8d5894b45",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "4570b005a73a225bf47f9e624d59471c8c215b5e746cf871bfeecb131ceef5f9",
+        "result.json": "7b8d8797a72a828e90c53fe1663901ac8d89d6acdcc64a2ac4b66ede98d74342"
+      },
+      "stability/gru/43": {
+        "bundle/bundle.json": "5b23282e3b8e1d48af0819e34c0f6fb761b387913568da471a0766dbe9a9fd14",
+        "bundle/vocabulary.json": "4245348130284384fd5d07e307a21818afd1b0621ec948c39dd00281a1e268de",
+        "bundle/weights.pt": "c65fa54bbdecdbefcf8babcaa6e8598426c1fb30d4ebd4bdfa0189994145c9fe",
+        "result.json": "d0576c4c990b1c49c13440946d0b907c625f5145bf92483c2f9fcb35fb38379e"
+      }
+    }
+  },
+  "models_evaluated": 12,
+  "schema": "xran-evaluation-verification-v1"
+}
